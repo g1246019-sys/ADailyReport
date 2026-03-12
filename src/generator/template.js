@@ -333,7 +333,7 @@ function generateHTML(report, history, config) {
         <section class="hot-topics">
             <h2>🔥 热门话题</h2>
             <ul>
-                ${report.hotTopics.map(topic => `<li><a href="https://www.google.com/search?q=${encodeURIComponent(topic)}" target="_blank" rel="noopener">${topic}</a></li>`).join('')}
+                ${report.hotTopics.map(topic => `<li><a href="https://www.baidu.com/s?wd=${encodeURIComponent(topic)}" target="_blank" rel="noopener">${topic}</a></li>`).join('')}
             </ul>
         </section>
         ` : ''}
