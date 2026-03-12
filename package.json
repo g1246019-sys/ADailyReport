@@ -1,0 +1,28 @@
+{
+  "name": "a-daily-report",
+  "version": "1.0.0",
+  "description": "自动化每日AI资讯日报生成与发布系统",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "build": "node src/index.js"
+  },
+  "keywords": [
+    "daily-report",
+    "ai",
+    "news",
+    "automation",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.28.0",
+    "rss-parser": "^3.13.0",
+    "axios": "^1.6.7",
+    "turndown": "^7.1.2",
+    "dayjs": "^1.11.10"
+  }
+}

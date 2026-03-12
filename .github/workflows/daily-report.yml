@@ -1,0 +1,84 @@
+# ADailyReport - 每日AI资讯自动生成与发布
+
+name: Daily Report
+
+on:
+  # 每天北京时间早上8点自动执行
+  # UTC 0点 = 北京时间8点
+  schedule:
+    - cron: '0 0 * * *'
+
+  # 支持手动触发（从 GitHub Actions 页面）
+  workflow_dispatch:
+
+  # 代码推送时也执行一次
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 设置并发组，避免多个任务同时运行
+concurrency:
+  group: 'daily-report'
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. 设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. 生成日报
+      - name: Generate daily report
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm start
+
+      # 5. 配置 Git
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # 6. 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          commit_message: '🚀 自动更新每日资讯'
+          # 自定义域名配置
+          cname: clawhub.ai
+
+      # 7. 输出结果
+      - name: Report success
+        if: success()
+        run: |
+          echo "✅ 每日日报生成完成！"
+          echo "📅 日期: $(date '+%Y年%m月%d日')"
+          echo "🌐 访问: https://clawhub.ai/"
+
+      # 8. 失败通知
+      - name: Report failure
+        if: failure()
+        run: |
+          echo "❌ 每日日报生成失败"
+          echo "请检查 GitHub Actions 日志"
