@@ -6,7 +6,7 @@
 const Parser = require('rss-parser');
 
 const parser = new Parser({
-  timeout: 10000,
+  timeout: 8000,
   headers: {
     'User-Agent': 'ADailyReport/1.0'
   }
@@ -62,13 +62,23 @@ async function parseRSS(source, maxItems = 10) {
 async function parseMultiple(sources, maxItemsPerSource = 5) {
   const allArticles = [];
 
-  for (const source of sources) {
-    const articles = await parseRSS(source, maxItemsPerSource);
-    allArticles.push(...articles);
+  // 限制同时处理的源数量，最多15个
+  const maxSources = 15;
+  const sourcesToProcess = sources.slice(0, maxSources);
+
+  for (const source of sourcesToProcess) {
+    try {
+      const articles = await parseRSS(source, maxItemsPerSource);
+      allArticles.push(...articles);
+    } catch (e) {
+      console.log(`   ⚠️ 跳过源: ${source.name}`);
+    }
 
     // 避免请求过快
-    await sleep(500);
+    await sleep(300);
   }
+
+  console.log(`   ✓ 共处理 ${sourcesToProcess.length} 个RSS源`);
 
   // 按发布时间排序
   allArticles.sort((a, b) => {

@@ -28,7 +28,7 @@ module.exports = {
   ],
 
   // 每个领域搜索的文章数量
-  articlesPerTopic: 8,
+  articlesPerTopic: 5,
 
   // ==================== RSS 订阅源 ====================
   // 可选的RSS订阅源，会与搜索结果合并
