@@ -8,28 +8,63 @@ module.exports = {
   // 您感兴趣的领域关键词，AI会根据这些关键词搜索最新资讯
   topics: [
     '人工智能',
-    '大语言模型',
+    'AI大模型',
     'LLM',
     'ChatGPT',
     'Claude',
-    '开源项目',
+    'GPT-4',
+    'Gemini',
+    '开源大模型',
+    'AI开源',
     '前端开发',
-    'JavaScript'
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Vue',
+    'Node.js',
+    'GitHub',
+    '程序员',
+    '技术 news'
   ],
 
   // 每个领域搜索的文章数量
-  articlesPerTopic: 3,
+  articlesPerTopic: 5,
 
   // ==================== RSS 订阅源 ====================
   // 可选的RSS订阅源，会与搜索结果合并
   rssSources: [
+    // 国内科技媒体
     {
       name: '36氪',
       url: 'https://36kr.com/feed/'
     },
     {
+      name: '虎嗅',
+      url: 'https://www.huxiu.com/rss'
+    },
+    {
+      name: '极客公园',
+      url: 'https://www.geekpark.net/feed'
+    },
+    {
+      name: '机器之心',
+      url: 'https://www.jiqizhixin.com/rss'
+    },
+    {
+      name: '量子位',
+      url: 'https://www.qbitai.com/feed'
+    },
+    {
+      name: '钛媒体',
+      url: 'https://www.tmtpost.com/feed'
+    },
+    {
+      name: '品玩',
+      url: 'https://www.pingwest.com/rss'
+    },
+    {
       name: 'InfoQ',
-      url: 'https://www.infoq.com feed/'
+      url: 'https://www.infoq.com/feed/'
     },
     {
       name: '掘金',
@@ -38,6 +73,39 @@ module.exports = {
     {
       name: '开源中国',
       url: 'https://www.oschina.net/news/rss'
+    },
+    {
+      name: 'CSDN',
+      url: 'https://blog.csdn.net/rss'
+    },
+    {
+      name: 'SegmentFault',
+      url: 'https://segmentfault.com/rss'
+    },
+    // 国际科技媒体
+    {
+      name: 'TechCrunch',
+      url: 'https://techcrunch.com/feed/'
+    },
+    {
+      name: 'The Verge',
+      url: 'https://www.theverge.com/rss/index.xml'
+    },
+    {
+      name: 'Wired',
+      url: 'https://www.wired.com/feed/rss'
+    },
+    {
+      name: 'MIT Technology Review',
+      url: 'https://www.technologyreview.com/feed/'
+    },
+    {
+      name: 'Hacker News',
+      url: 'https://hnrss.org/frontpage'
+    },
+    {
+      name: 'GitHub Trending',
+      url: 'https://github.com/trending.rss'
     }
   ],
 
