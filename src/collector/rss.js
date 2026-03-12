@@ -24,7 +24,16 @@ async function parseRSS(source, maxItems = 10) {
   try {
     const feed = await parser.parseURL(source.url);
 
+    // 计算3天前的时间戳
+    const threeDaysAgo = new Date();
+    threeDaysAgo.setDate(threeDaysAgo.getDate() - 3);
+
     const articles = (feed.items || [])
+      .filter(item => {
+        // 过滤掉3天前的旧文章
+        const pubDate = new Date(item.pubDate || item.isoDate);
+        return pubDate >= threeDaysAgo;
+      })
       .slice(0, maxItems)
       .map(item => ({
         title: item.title || '',
@@ -35,7 +44,7 @@ async function parseRSS(source, maxItems = 10) {
         type: 'rss'
       }));
 
-    console.log(`   ✓ 获取到 ${articles.length} 篇文章`);
+    console.log(`   ✓ 获取到 ${articles.length} 篇最新文章`);
     return articles;
 
   } catch (error) {

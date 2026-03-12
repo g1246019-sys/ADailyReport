@@ -12,13 +12,18 @@ const axios = require('axios');
  * @returns {Promise<Array>} - 搜索结果数组
  */
 async function searchNews(keyword, maxResults = 5) {
-  console.log(`🔍 搜索: ${keyword}`);
+  // 在关键词中添加时间限定词以获取最新资讯
+  const timeKeywords = ['', '今天', '本周', '本月'];
+  const randomTime = timeKeywords[Math.floor(Math.random() * timeKeywords.length)];
+  const searchQuery = randomTime ? `${keyword} ${randomTime}` : keyword;
+
+  console.log(`🔍 搜索: ${searchQuery}`);
 
   try {
     // 使用 DuckDuckGo Instant Answer API
     const response = await axios.get('https://api.duckduckgo.com/', {
       params: {
-        q: keyword,
+        q: searchQuery,
         format: 'json',
         no_html: 1,
         skip_disambig: 1
