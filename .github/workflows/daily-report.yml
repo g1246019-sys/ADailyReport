@@ -64,7 +64,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
-          commit_message: '🚀 自动更新每日资讯'
+          force_orphan: true
+          full_commit_message: '🚀 自动更新每日资讯'
 
       # 7. 输出结果
       - name: Report success
