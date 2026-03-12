@@ -23,7 +23,7 @@ async function collectAll() {
     console.log('📡 RSS订阅源解析\n');
     results.rssArticles = await parseMultiple(
       config.rssSources,
-      10
+      5
     );
   }
 

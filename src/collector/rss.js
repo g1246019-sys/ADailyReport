@@ -18,7 +18,7 @@ const parser = new Parser({
  * @param {number} maxItems - 最大条目数
  * @returns {Promise<Array>} - 解析后的文章列表
  */
-async function parseRSS(source, maxItems = 10) {
+async function parseRSS(source, maxItems = 5) {
   console.log(`📰 解析RSS源: ${source.name}`);
 
   try {
@@ -62,8 +62,8 @@ async function parseRSS(source, maxItems = 10) {
 async function parseMultiple(sources, maxItemsPerSource = 5) {
   const allArticles = [];
 
-  // 限制同时处理的源数量，最多15个
-  const maxSources = 15;
+  // 限制同时处理的源数量，最多8个
+  const maxSources = 8;
   const sourcesToProcess = sources.slice(0, maxSources);
 
   for (const source of sourcesToProcess) {
