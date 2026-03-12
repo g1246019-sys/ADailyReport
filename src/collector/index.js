@@ -32,7 +32,7 @@ async function collectAll() {
     console.log('\n📡 阶段2: RSS订阅源解析\n');
     results.rssArticles = await parseMultiple(
       config.rssSources,
-      5
+      10
     );
   }
 

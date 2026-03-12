@@ -28,12 +28,12 @@ module.exports = {
   ],
 
   // 每个领域搜索的文章数量
-  articlesPerTopic: 5,
+  articlesPerTopic: 8,
 
   // ==================== RSS 订阅源 ====================
   // 可选的RSS订阅源，会与搜索结果合并
   rssSources: [
-    // 国内科技媒体
+    // 国内AI科技媒体（更新最快）
     {
       name: '36氪',
       url: 'https://36kr.com/feed/'
@@ -41,10 +41,6 @@ module.exports = {
     {
       name: '虎嗅',
       url: 'https://www.huxiu.com/rss'
-    },
-    {
-      name: '极客公园',
-      url: 'https://www.geekpark.net/feed'
     },
     {
       name: '机器之心',
@@ -59,9 +55,30 @@ module.exports = {
       url: 'https://www.tmtpost.com/feed'
     },
     {
+      name: '极客公园',
+      url: 'https://www.geekpark.net/feed'
+    },
+    {
       name: '品玩',
       url: 'https://www.pingwest.com/rss'
     },
+    {
+      name: '爱范儿',
+      url: 'https://www.ifanr.com/feed/'
+    },
+    {
+      name: '少数派',
+      url: 'https://sspai.com/feed'
+    },
+    {
+      name: '雷峰网',
+      url: 'https://www.leiphone.com/feed'
+    },
+    {
+      name: '新智元',
+      url: 'https://www.xinzhiyuan.io/feed'
+    },
+    // 技术社区
     {
       name: 'InfoQ',
       url: 'https://www.infoq.com/feed/'
@@ -75,9 +92,60 @@ module.exports = {
       url: 'https://www.oschina.net/news/rss'
     },
     {
-      name: 'CSDN',
-      url: 'https://blog.csdn.net/rss'
+      name: 'SegmentFault',
+      url: 'https://segmentfault.com/rss'
     },
+    {
+      name: 'V2EX',
+      url: 'https://www.v2ex.com/index.xml'
+    },
+    {
+      name: '知乎每日精选',
+      url: 'https://www.zhihu.com/rss'
+    },
+    // 国际科技媒体
+    {
+      name: 'TechCrunch',
+      url: 'https://techcrunch.com/feed/'
+    },
+    {
+      name: 'The Verge',
+      url: 'https://www.theverge.com/rss/index.xml'
+    },
+    {
+      name: 'Wired',
+      url: 'https://www.wired.com/feed/rss'
+    },
+    {
+      name: 'Ars Technica',
+      url: 'https://feeds.arstechnica.com/arstechnica/index'
+    },
+    {
+      name: 'Engadget',
+      url: 'https://www.engadget.com/rss.xml'
+    },
+    {
+      name: 'MIT Technology Review',
+      url: 'https://www.technologyreview.com/feed/'
+    },
+    // 开发者社区
+    {
+      name: 'Hacker News',
+      url: 'https://hnrss.org/frontpage'
+    },
+    {
+      name: 'Dev.to',
+      url: 'https://dev.to/feed'
+    },
+    {
+      name: 'Reddit programming',
+      url: 'https://www.reddit.com/r/programming.rss'
+    },
+    {
+      name: 'GitHub Trending',
+      url: 'https://github.com/trending.rss'
+    }
+  ],
     {
       name: 'SegmentFault',
       url: 'https://segmentfault.com/rss'
