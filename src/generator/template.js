@@ -107,10 +107,18 @@ function generateHTML(report, history, config) {
 
         .hot-topics li {
             background: linear-gradient(135deg, #ff6b6b, #ffa500);
-            color: white;
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 0.95rem;
+        }
+
+        .hot-topics li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hot-topics li a:hover {
+            text-decoration: underline;
         }
 
         /* Categories */
@@ -325,7 +333,7 @@ function generateHTML(report, history, config) {
         <section class="hot-topics">
             <h2>🔥 热门话题</h2>
             <ul>
-                ${report.hotTopics.map(topic => `<li>${topic}</li>`).join('')}
+                ${report.hotTopics.map(topic => `<li><a href="https://www.google.com/search?q=${encodeURIComponent(topic)}" target="_blank" rel="noopener">${topic}</a></li>`).join('')}
             </ul>
         </section>
         ` : ''}
