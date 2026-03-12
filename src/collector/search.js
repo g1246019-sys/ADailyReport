@@ -28,7 +28,7 @@ async function searchNews(keyword, maxResults = 5) {
         no_html: 1,
         skip_disambig: 1
       },
-      timeout: 10000
+      timeout: 8000
     });
 
     const data = response.data;

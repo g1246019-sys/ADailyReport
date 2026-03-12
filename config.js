@@ -33,19 +33,7 @@ module.exports = {
   // ==================== RSS 订阅源 ====================
   // 可选的RSS订阅源，会与搜索结果合并
   rssSources: [
-    // 国内AI科技媒体（更新最快）
-    {
-      name: '36氪',
-      url: 'https://36kr.com/feed/'
-    },
-    {
-      name: '虎嗅',
-      url: 'https://www.huxiu.com/rss'
-    },
-    {
-      name: '机器之心',
-      url: 'https://www.jiqizhixin.com/rss'
-    },
+    // 国内科技媒体（经验证可用的）
     {
       name: '量子位',
       url: 'https://www.qbitai.com/feed'
@@ -53,14 +41,6 @@ module.exports = {
     {
       name: '钛媒体',
       url: 'https://www.tmtpost.com/feed'
-    },
-    {
-      name: '极客公园',
-      url: 'https://www.geekpark.net/feed'
-    },
-    {
-      name: '品玩',
-      url: 'https://www.pingwest.com/rss'
     },
     {
       name: '爱范儿',
@@ -74,15 +54,7 @@ module.exports = {
       name: '雷峰网',
       url: 'https://www.leiphone.com/feed'
     },
-    {
-      name: '新智元',
-      url: 'https://www.xinzhiyuan.io/feed'
-    },
     // 技术社区
-    {
-      name: 'InfoQ',
-      url: 'https://www.infoq.com/feed/'
-    },
     {
       name: '掘金',
       url: 'https://juejin.cn/rss'
@@ -92,25 +64,13 @@ module.exports = {
       url: 'https://www.oschina.net/news/rss'
     },
     {
-      name: 'SegmentFault',
-      url: 'https://segmentfault.com/rss'
-    },
-    {
       name: 'V2EX',
       url: 'https://www.v2ex.com/index.xml'
-    },
-    {
-      name: '知乎每日精选',
-      url: 'https://www.zhihu.com/rss'
     },
     // 国际科技媒体
     {
       name: 'TechCrunch',
       url: 'https://techcrunch.com/feed/'
-    },
-    {
-      name: 'The Verge',
-      url: 'https://www.theverge.com/rss/index.xml'
     },
     {
       name: 'Wired',
@@ -124,10 +84,6 @@ module.exports = {
       name: 'Engadget',
       url: 'https://www.engadget.com/rss.xml'
     },
-    {
-      name: 'MIT Technology Review',
-      url: 'https://www.technologyreview.com/feed/'
-    },
     // 开发者社区
     {
       name: 'Hacker News',
@@ -136,40 +92,6 @@ module.exports = {
     {
       name: 'Dev.to',
       url: 'https://dev.to/feed'
-    },
-    {
-      name: 'Reddit programming',
-      url: 'https://www.reddit.com/r/programming.rss'
-    },
-    {
-      name: 'GitHub Trending',
-      url: 'https://github.com/trending.rss'
-    }
-  ],
-    {
-      name: 'SegmentFault',
-      url: 'https://segmentfault.com/rss'
-    },
-    // 国际科技媒体
-    {
-      name: 'TechCrunch',
-      url: 'https://techcrunch.com/feed/'
-    },
-    {
-      name: 'The Verge',
-      url: 'https://www.theverge.com/rss/index.xml'
-    },
-    {
-      name: 'Wired',
-      url: 'https://www.wired.com/feed/rss'
-    },
-    {
-      name: 'MIT Technology Review',
-      url: 'https://www.technologyreview.com/feed/'
-    },
-    {
-      name: 'Hacker News',
-      url: 'https://hnrss.org/frontpage'
     },
     {
       name: 'GitHub Trending',

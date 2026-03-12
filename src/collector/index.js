@@ -1,9 +1,8 @@
 /**
  * 数据采集器 - 统一入口
- * 整合搜索和 RSS 两种采集方式
+ * 使用 RSS 订阅源采集最新资讯
  */
 
-const { searchBatch } = require('./search');
 const { parseMultiple } = require('./rss');
 const config = require('../../config');
 
@@ -15,31 +14,22 @@ async function collectAll() {
   console.log('\n========== 开始数据采集 ==========\n');
 
   const results = {
-    searchResults: [],
     rssArticles: [],
     timestamp: new Date().toISOString()
   };
 
-  // 1. 关键词搜索
-  console.log('📡 阶段1: 关键词搜索\n');
-  results.searchResults = await searchBatch(
-    config.topics,
-    config.articlesPerTopic
-  );
-
-  // 2. RSS 订阅源
+  // 1. RSS 订阅源
   if (config.rssSources && config.rssSources.length > 0) {
-    console.log('\n📡 阶段2: RSS订阅源解析\n');
+    console.log('📡 RSS订阅源解析\n');
     results.rssArticles = await parseMultiple(
       config.rssSources,
       10
     );
   }
 
-  // 3. 合并去重
-  console.log('\n📡 阶段3: 数据整理\n');
-  const allData = [...results.searchResults, ...results.rssArticles];
-  const uniqueData = deduplicate(allData);
+  // 2. 数据整理
+  console.log('\n📡 数据整理\n');
+  const uniqueData = deduplicate(results.rssArticles);
 
   console.log(`   ✓ 共获取 ${uniqueData.length} 条有效资讯`);
 
