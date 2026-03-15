@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年3月15日 AI每日资讯 | ADailyReport - 每日AI资讯</title>
+    <meta name="description" content="今日简报关注了AI进展、开源项目和大模型动态等热门话题，涵盖了从技术前沿到实际应用的多个方面。">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        header .date {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        /* Summary */
+        .summary {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .summary h2 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .summary p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        /* Hot Topics */
+        .hot-topics {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .hot-topics h2 {
+            color: #ff6b6b;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hot-topics ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .hot-topics li {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+
+        .hot-topics li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hot-topics li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Categories */
+        .category {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .category h2 {
+            color: #333;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .category .description {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .article {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        .article h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .article h3 a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .article h3 a:hover {
+            color: #667eea;
+        }
+
+        .article .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .article .meta span {
+            margin-right: 15px;
+        }
+
+        .article .summary-text {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Tools */
+        .tools {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .tools h2 {
+            color: #51cf66;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .tool-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .tool-item:last-child {
+            border-bottom: none;
+        }
+
+        .tool-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
+        }
+
+        .tool-item .desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        /* Closing */
+        .closing {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            text-align: center;
+            color: #666;
+        }
+
+        /* History */
+        .history {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .history h2 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .history ul {
+            list-style: none;
+        }
+
+        .history li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .history li:last-child {
+            border-bottom: none;
+        }
+
+        .history a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .history a:hover {
+            text-decoration: underline;
+        }
+
+        .history .date {
+            color: #888;
+            font-size: 0.85rem;
+            margin-left: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .category, .summary, .hot-topics, .tools, .closing, .history {
+                padding: 20px;
+            }
+        }
+
+        /* Fallback badge */
+        .fallback-badge {
+            display: inline-block;
+            background: #ffe066;
+            color: #333;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 ADailyReport - 每日AI资讯</h1>
+        <p class="date">📅 Invalid Date </p>
+    </header>
+
+    <div class="container">
+        <!-- 简报摘要 -->
+        <section class="summary">
+            <h2>📝 今日简报</h2>
+            <p>今日简报关注了AI进展、开源项目和大模型动态等热门话题，涵盖了从技术前沿到实际应用的多个方面。</p>
+        </section>
+
+        <!-- 热点话题 -->
+        
+        <section class="hot-topics">
+            <h2>🔥 热门话题</h2>
+            <ul>
+                <li><a href="https://www.baidu.com/s?wd=AI%E8%BF%9B%E5%B1%95" target="_blank" rel="noopener">AI进展</a></li><li><a href="https://www.baidu.com/s?wd=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8A%A8%E6%80%81" target="_blank" rel="noopener">大模型动态</a></li><li><a href="https://www.baidu.com/s?wd=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85" target="_blank" rel="noopener">智能家居</a></li>
+            </ul>
+        </section>
+        
+
+        <!-- 分类资讯 -->
+        
+        <section class="category">
+            <h2>AI进展</h2>
+            <p class="description">本类别聚焦人工智能领域的最新研究成果和技术动态。</p>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/7914379.html" target="_blank" rel="noopener">360发布安全龙虾系列产品：以模治模构建智能体安全体系</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">360发布了一款以模治模构建智能体安全体系的新产品，旨在提升人工智能的安全性。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/7914589.html" target="_blank" rel="noopener">Cell子刊：首次明确苔藓纤维突触前短时易化在海马环路功能和记忆、情绪行为中的特异性调控作用</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">研究人员首次明确了苔藓纤维突触前短时易化在海马环路功能和记忆、情绪行为中的特异性调控作用。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/03/387915.html" target="_blank" rel="noopener">AI数学推理新纪元：SAIR Foundation正式启动“数学蒸馏挑战赛”</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">SAIR Foundation启动了“数学蒸馏挑战赛”，旨在推动AI在数学推理领域的进展。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>大模型动态</h2>
+            <p class="description">本类别关注大模型的最新发展和应用。</p>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/03/387867.html" target="_blank" rel="noopener">Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">Gemini通过一句话搞定出行攻略，展示了其在信息处理和搜索方面的强大能力。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/03/387860.html" target="_blank" rel="noopener">不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型”AWE3.0</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">石智航发布了AWE3.0，这是一个能够执行实际任务的通用具身大模型。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/03/387843.html" target="_blank" rel="noopener">AI能代替人干活吗？B站联合6位UP主用OpenClaw直播做了次社会实验</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">B站联合UP主用OpenClaw进行社会实验，探讨AI是否可以代替人类工作。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>开源项目</h2>
+            <p class="description">本类别关注开源社区的新项目和更新。</p>
+            
+            <article class="article">
+                <h3><a href="undefined" target="_blank" rel="noopener">星甘 V3.2 用 </a></h3>
+                <p class="meta">
+                    <span>📰 undefined</span>
+                </p>
+                <p class="summary-text">undefined</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="undefined" target="_blank" rel="noopener">undefined</a></h3>
+                <p class="meta">
+                    <span>📰 undefined</span>
+                </p>
+                <p class="summary-text">undefined</p>
+            </article>
+            
+        </section>
+        
+
+        <!-- 工具推荐 -->
+        
+
+        <!-- 结束语 -->
+        
+
+        <!-- 历史日报 -->
+        <section class="history">
+            <h2>📚 历史日报</h2>
+            <ul>
+                
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>🤖 由 <a href="https://github.com" target="_blank">ADailyReport</a> 自动生成</p>
+        <p>© 2026 ADailyReport - 每日AI资讯</p>
+    </footer>
+</body>
+</html>

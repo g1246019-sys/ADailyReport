@@ -1,0 +1,78 @@
+{
+  "title": "2026年3月15日 AI每日资讯",
+  "summary": "今日简报关注了AI进展、开源项目和大模型动态等热门话题，涵盖了从技术前沿到实际应用的多个方面。",
+  "hotTopics": [
+    "AI进展",
+    "大模型动态",
+    "智能家居"
+  ],
+  "categories": [
+    {
+      "name": "AI进展",
+      "description": "本类别聚焦人工智能领域的最新研究成果和技术动态。",
+      "items": [
+        {
+          "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
+          "summary": "360发布了一款以模治模构建智能体安全体系的新产品，旨在提升人工智能的安全性。",
+          "url": "https://www.tmtpost.com/7914379.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "Cell子刊：首次明确苔藓纤维突触前短时易化在海马环路功能和记忆、情绪行为中的特异性调控作用",
+          "summary": "研究人员首次明确了苔藓纤维突触前短时易化在海马环路功能和记忆、情绪行为中的特异性调控作用。",
+          "url": "https://www.tmtpost.com/7914589.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "AI数学推理新纪元：SAIR Foundation正式启动“数学蒸馏挑战赛”",
+          "summary": "SAIR Foundation启动了“数学蒸馏挑战赛”，旨在推动AI在数学推理领域的进展。",
+          "url": "https://www.qbitai.com/2026/03/387915.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "大模型动态",
+      "description": "本类别关注大模型的最新发展和应用。",
+      "items": [
+        {
+          "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
+          "summary": "Gemini通过一句话搞定出行攻略，展示了其在信息处理和搜索方面的强大能力。",
+          "url": "https://www.qbitai.com/2026/03/387867.html",
+          "source": "量子位"
+        },
+        {
+          "title": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型”AWE3.0",
+          "summary": "石智航发布了AWE3.0，这是一个能够执行实际任务的通用具身大模型。",
+          "url": "https://www.qbitai.com/2026/03/387860.html",
+          "source": "量子位"
+        },
+        {
+          "title": "AI能代替人干活吗？B站联合6位UP主用OpenClaw直播做了次社会实验",
+          "summary": "B站联合UP主用OpenClaw进行社会实验，探讨AI是否可以代替人类工作。",
+          "url": "https://www.qbitai.com/2026/03/387843.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "开源项目",
+      "description": "本类别关注开源社区的新项目和更新。",
+      "items": [
+        {
+          "title": "星甘 V3.2 用 "
+        },
+        "summary': "
+      ],
+      "url": "https://www.oschina.net/news/410292",
+      "source": "开源中国"
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-03-15T02:26:09.649Z",
+    "sourceCount": 35,
+    "date": "2026年03月15日",
+    "provider": "siliconflow",
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  }
+}
