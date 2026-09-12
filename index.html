@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年09月12日 每日资讯汇总 | ADailyReport - 每日AI资讯</title>
+    <meta name="description" content="今日共收集 40 条资讯，涵盖 8 个来源。">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        header .date {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        /* Summary */
+        .summary {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .summary h2 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .summary p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        /* Hot Topics */
+        .hot-topics {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .hot-topics h2 {
+            color: #ff6b6b;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hot-topics ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .hot-topics li {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+
+        .hot-topics li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hot-topics li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Categories */
+        .category {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .category h2 {
+            color: #333;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .category .description {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .article {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        .article h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .article h3 a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .article h3 a:hover {
+            color: #667eea;
+        }
+
+        .article .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .article .meta span {
+            margin-right: 15px;
+        }
+
+        .article .summary-text {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Tools */
+        .tools {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .tools h2 {
+            color: #51cf66;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .tool-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .tool-item:last-child {
+            border-bottom: none;
+        }
+
+        .tool-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
+        }
+
+        .tool-item .desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        /* Closing */
+        .closing {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            text-align: center;
+            color: #666;
+        }
+
+        /* History */
+        .history {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .history h2 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .history ul {
+            list-style: none;
+        }
+
+        .history li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .history li:last-child {
+            border-bottom: none;
+        }
+
+        .history a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .history a:hover {
+            text-decoration: underline;
+        }
+
+        .history .date {
+            color: #888;
+            font-size: 0.85rem;
+            margin-left: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .category, .summary, .hot-topics, .tools, .closing, .history {
+                padding: 20px;
+            }
+        }
+
+        /* Fallback badge */
+        .fallback-badge {
+            display: inline-block;
+            background: #ffe066;
+            color: #333;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 ADailyReport - 每日AI资讯</h1>
+        <p class="date">📅 Invalid Date <span class="fallback-badge">简化版</span></p>
+    </header>
+
+    <div class="container">
+        <!-- 简报摘要 -->
+        <section class="summary">
+            <h2>📝 今日简报</h2>
+            <p>今日共收集 40 条资讯，涵盖 8 个来源。</p>
+        </section>
+
+        <!-- 热点话题 -->
+        
+
+        <!-- 分类资讯 -->
+        
+        <section class="category">
+            <h2>V2EX</h2>
+            <p class="description">来自 V2EX 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1241502#reply0" target="_blank" rel="noopener">[全球工单系统] 淘宝是不是在用去年的 Agents vibe slopping, 人在国外就不配下单了?</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">人在国外, 想给国内家人买点东西, 以前没问题, 现在连详情页都打不开
+电脑上还显示一个手机页面:
+此商品不可运送
+根据相关地区法律法规及淘宝网政策，该商品无法运送至您所在的国家或地区
+了解更多规则
+可能是淘宝允许商家设置"不配送海外", 所以 程序员/AI 按海外 IP 直接 block 人浏览, 我地址都没选呢, 另外, 我个人信息里的所有地址都是国内的, 你等我真想寄到海外再给我一个警告页面也不迟啊.</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1241501#reply0" target="_blank" rel="noopener">[推广] 🔥 Proxy001 周六送福利！ 1 亿 + 住宅 IP | 动态 $0.55/GB | 静态 $2.9 / 月 | 不限量 $35 / 天 | 1G 免费领</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">跨境电商 / AI 数据采集 / 舆情监控 / 广告验证 / SEO 优化 全都能用
+Proxy001 | 全球代理解决方案
+住宅 IP / 数据中心 IP 双引擎 | 99.9% 连通率 | 全协议支持（ HTTP/HTTPS/SOCKS5 ）
+💰 三大核心 IP 服务，价格一步到位：
+动态住宅 IP：$0.55/GB 起，按量付费无最低消费，1 亿 + 真实住宅 IP ，覆盖 200 + 国家地区，支持城市级定位
+静态 ISP 独享 IP：$2.9/IP/ 月 起，原生住宅 IP 独享不共享，高信任度长期稳定，账号管理首选
+不限量住宅套餐：$35 / 天 起，流量全免不限并发，粘性会话最</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1241500#reply0" target="_blank" rel="noopener">[问与答] VibeCoding 开发痛点，欢迎讨论</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">我日常中出现的两个情况：
+1. A 工具额度用完了之后，拷贝该工具的 link ，去 B 工具说：‘继续 xx/xx ，未完成的事情’...
+2. A 仓库和 B 仓库有上下游关系的时候，我希望有一个整体的资料看板。用了几个现有产品还不够理想，还是以本地文件看板和人工提示为主</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1241499#reply1" target="_blank" rel="noopener">[问与答] 有靠谱的宏观日历 REST API 推荐吗？</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">目前用了几个：
+- OKX：差点意思，修正值有缺失
+- Yahoo：部分数据缺失
+- 长桥：没测试成功
+- 富途：需要 client ，不是 REST API ，没测试</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1241498#reply1" target="_blank" rel="noopener">[深圳] 马鞍岛住了一个月了</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">四室一厅大房子 乱七八糟费用加起来也就 1800 对比之前深圳的大开间 一个月 4500 左右
+但是这边实在是太无聊了 还在慢慢适应当中</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>钛媒体</h2>
+            <p class="description">来自 钛媒体 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8137230.html" target="_blank" rel="noopener">蚂蚁阿福：1.5亿用户背后，健康AI的烧钱与造血</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">蚂蚁阿福、健康AI 、AI医疗、用户留存 、烧钱换增长、蚂蚁保、阿里健康、好大夫在线</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8137263.html" target="_blank" rel="noopener">智谱和MiniMax，进入“低价增长”时代</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">DeepSeek再降价，模型公司的高增长被打折。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8137691.html" target="_blank" rel="noopener">OpenAI把Codex“拆开卖了”</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">Agent = Model + Harness</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8137218.html" target="_blank" rel="noopener">MiniMax寻路AGI</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">技术水准才是硬通货。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8137190.html" target="_blank" rel="noopener">AI正在批量制造海景房</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">低成本造假，不该由消费者买单。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>掘金</h2>
+            <p class="description">来自 掘金 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://juejin.cn/post/7684118428586475571" target="_blank" rel="noopener">2GB 内存的 Android 工业终端上，我们是怎么把 OOM 按在地上摩擦的</a></h3>
+                <p class="meta">
+                    <span>📰 掘金</span>
+                </p>
+                <p class="summary-text">最新在2G内存的Android虹膜人脸一体机上开发了一个App，2G内存的设备算是内存比较小的了，开发App的过程中对于内存的优化有一些经验分享出来。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://juejin.cn/post/7684172753694261274" target="_blank" rel="noopener">两个 SDK 抢一个摄像头：Android 设备上的相机仲裁设计与踩坑实录</a></h3>
+                <p class="meta">
+                    <span>📰 掘金</span>
+                </p>
+                <p class="summary-text">Android开发经常会碰到的场景，就是摄像头的资源紧张，经常会出现一个线程要开启摄像头，另一个线程又必须要关闭摄像头，那么摄像头的资源该如何调度？给出我的经验。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://juejin.cn/post/7684463933701357578" target="_blank" rel="noopener">暗光下摄像头"见鬼"了：一个 2GB 内存 Android 终端的帧差唤醒踩坑记</a></h3>
+                <p class="meta">
+                    <span>📰 掘金</span>
+                </p>
+                <p class="summary-text">Android人脸及虹膜识别，使用人脸+帧差法的方式判断有人经过或有人来到摄像头前，暗光条件下如何优化这套功能进行一些分享。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://juejin.cn/post/7684187439468314634" target="_blank" rel="noopener">摄像头电机自动校准实战：为什么我用「步数计数」替换了角度传感器绝对定位</a></h3>
+                <p class="meta">
+                    <span>📰 掘金</span>
+                </p>
+                <p class="summary-text">易思科虹膜人脸识别一体机，摄像头可以进行上下角度的移动。 对此，在实现“摄像头跟随人脸角度移动”的过程中，对于摄像头的角度初始化以及移动的相关操作逻辑有一些经验进行分享。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://juejin.cn/post/7684096238505771071" target="_blank" rel="noopener">Agent 记忆出现重复和矛盾怎么优化：我实测了6种去重和更新策略，找到了低成本维护记忆质量的方法</a></h3>
+                <p class="meta">
+                    <span>📰 掘金</span>
+                </p>
+                <p class="summary-text">很多Agent 记忆系统用久了会出现积累重复和矛盾记忆的问题。为了解决这个问题，本文实测了 mem0、MemOS、signetai 等记忆方案，对比了 6 种去重与更新策略，最终找到一种既能维护好记忆</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>爱范儿</h2>
+            <p class="description">来自 爱范儿 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1679729?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">早报｜苹果CEO特努斯回应折叠屏迟到：不做半成品/长鑫存储利润率超三星海力士/36.9万，特斯拉Model Y高性能版上市</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">· 马斯克怒斥吉布尼纪录片《马斯克》是「抹黑之作」
+· 特斯拉 Model Y 高性能版上市，售价 36.9 万元
+· 微软计划到 2032 年把数据中心容量扩至 38 GW 以上
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1679798?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">制糖工厂发布「硬糖小魔头 Max60」：60W AVS 动态快充，15 分钟让 iPhone 18 Pro 充至 50%</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">制糖工厂 CANDYSIGN 宣布推出—— 60W 动态电源「硬糖小魔头 Max60」，支持 iPhone 18 Pro AVS 动态快充15 分钟可充至 50%。随着 iPhone 18 Pro / Pro Max 正式支持 AVS，这项技术开始走向更多用户，Max60 小魔头也为这一新一代快充体验而来。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1679765?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">在外滩大会上，我看到健康 AI+ 硬件的新可能</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">如何把让硬件+AI，变成用户能够长期使用的健康服务
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1679614?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">GPT-6 爆火 3D 案例被扒出「用了现成素材」，这次我们真做了一个</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">GPT-6 + Hyper3D MCP 最强3D创作搭档
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1679530?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">iPhone Duo 最惊艳的一秒，让我重新理解液态玻璃</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">苹果折叠 iPhone，真正折叠的是 iOS
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>量子位</h2>
+            <p class="description">来自 量子位 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/09/487631.html" target="_blank" rel="noopener">银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">看清「一个真正的人」</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/09/487573.html" target="_blank" rel="noopener">啊？Anthropic最高320万招销售，只为服务Meta</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">原来你俩互相下单呢</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/09/487415.html" target="_blank" rel="noopener">百度秒哒再升级！让最懂业务的人，亲手造自己的系统</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">把开发、交付和接单全打通了</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/09/487282.html" target="_blank" rel="noopener">不简单，“吃货快乐榜”也全面AI化了</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">暂无摘要</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/09/487273.html" target="_blank" rel="noopener">墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">9月9日，墨芯人工智能亮相以"共创AI新经济"为主题的2026 Inclusion·外滩大会。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>开源中国</h2>
+            <p class="description">来自 开源中国 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502429" target="_blank" rel="noopener">Termexo v0.8.7 发布：换用 avt 解析器，修复终端空白与重绘阻塞</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">官网工作台截图（v0.8.0 界面示意，非本版新增功能截图）。 我是 Termexo 的维护者。Termexo 是 MIT 开源的 Windows 工作台，用于集中使用 Claude Code、Codex 和 OpenCode。 v0.8.7 聚焦终端可靠性：Agent 明明还在运行，界面却空白并显示“已停止”，这样的故障比普通显示错乱更影响工作。本次修复了宽字符与窗口缩窄共...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502428" target="_blank" rel="noopener">全能 Go Agent 框架 Covonaut v1.1.2 发布：终端对话加入旁问与三档输出</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">Covonaut 是面向生产环境的 Go Agent 框架，纯 Go 实现，以 MIT 协议开源。覆盖 Agent 开发的完整链路：Agent Loop（含上下文自动压缩、指数退避重试）、工具系统、多 Agent 交接、图引擎（DAG 与 Pregel 两种执行模型）、会话树、可观测性，以及 A2A（Agent-to-Agent）、ACP（Agent Client Protocol）、AG-UI（Agent-U...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502427/xiaomi-cocktailasr-1" target="_blank" rel="noopener">小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">把一个人声从嘈杂的人群中剥离出来，人类的听觉系统做这件事毫不费力。但对 ASR 模型来说，多人同时讲话的场景至今是一个未被充分解决的难题。小米刚刚开源的 CocktailASR-1，做出了一个有意思的尝试：不是做"更好的降噪"，而是从根本上改变任务的输入——先告诉模型你要听谁说话，再让模型只输出那个人的话。 这就是目标...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://my.oschina.net/u/4806939/blog/19757902" target="_blank" rel="noopener">OmniStudio | 一个本地优先、完全免费的开源桌面终端</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">“把大模型装进电脑本地免费跑。”</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502425" target="_blank" rel="noopener">FocusAny v2.2.0 模型能力标识上线，SDK CLI 新增诊断与转发，插件资源按需下载</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">FocusAny v2.2.0 带来三个方面的更新：大模型的能力标识变得更直观，SDK 命令行工具新增了诊断和转发命令，插件开发者可以按需下载资源文件。 如果你在模型设置里面对几十个模型名挑来挑去，现在每个模型旁边会显示它的能力标签——能看图还是有工具调用功能，看一眼就知道。插件开发者也不用再把大文件打进包里了，新增...</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>雷峰网</h2>
+            <p class="description">来自 雷峰网 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/JXhS5Joxp68qFEmE.html" target="_blank" rel="noopener">从一台车出发到三百城，九识成为城市治理的「运力底座」</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">当多数公司还在发布会的PPT里讲“物理AI”的故事时，九识的无人车规模已经超过3万辆，覆盖300余座城市，累计真实运营里程达到2.5亿公里。
+近日，九识召开战略发布会，宣布公司未来重心将聚焦物理AI赋能城市治理。九识的特别之处在于，别的公司是先提出Physical AI，再寻找应用场景，而九识是先让机器跑起来、跑出商业收入，才宣布物理AI的战略升级。
+九识CEO孔旗曾表示，复杂城市开放道路能够产生高价值数据，而商业模式本身需要赚钱，才能持续获取数据、推动技术进步。
+如今，九识的车队已经进入“数据驱动迭代、商业反哺研发”的循环。所以，九识所说的物理AI，其实是一套已经在现实世界持续感知、决策并执</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/cgxm7O53FRlftYwO.html" target="_blank" rel="noopener">突破舱驾融合瓶颈，德赛西威给出「双优」新解法</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">更精简的架构，更迅速的响应速度，是智能汽车进化的方向，而舱驾一体，则是智能汽车进化的一个节点。
+佐思汽研预测，2026年到2030年中国舱驾一体市场年复合增长率将达36%，到2030年还有3.6倍的增长空间。
+然而，当舱驾一体真正进入量产阶段，座舱和智驾被装进同一颗芯片，有限的算力却越来越向智驾倾斜。
+过去几年，智驾能力一直是车企智能化的卖点之一。从高速NOA到城市NOA，再到更高阶的辅助驾驶，更多算力被用于增加智驾功能、提高模型能力。但在舱驾一体架构下，智驾和座舱开始共享资源，资源向一边过度倾斜，另一边就可能付出代价。
+于是，一些舱驾一体方案出现车机卡顿、SR掉帧、座舱响应迟滞等问题。舱驾一</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/industrynews/9kc5LWEjsnYINmQO.html" target="_blank" rel="noopener">半世纪前的AI画作到AI歌手线下开唱，2026外滩大会AI艺术节勾勒人机共创新图景</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">当AI开始绘画、拍电影，甚至“出道”成为艺人，艺术的边界在哪里？
+9月9日，随着2026 Inclusion·外滩大会在上海开幕，大会首次设立的特色板块——AI艺术节同步亮相。围绕AI概念艺术展、AI影像展映、AI音乐会三大单元，这场由AI与人类共同参与的艺术实践，将原本更多发生在线上的AI创作带到线下，呈现一个可看、可听、可互动的艺术现场。
+9日下午，AI艺术节探展活动“跟着艺术家一起打开AI艺术节”在展馆内举行。艺术家、策展人与创作者围绕一个共同问题展开交流：当AI越来越深度参与创作，人的创造力会发生什么变化？
+
+外滩大会AI艺术节相关负责人表示，当技术已经深刻影响每个人的生活，人们不仅要</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/private/rSWX8JI9JPPBvt0j.html" target="_blank" rel="noopener">不堆 Transformer，斯坦福吴佳俊如何用物理重新定义多模态融合？｜ECCV 2026</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">视觉、听觉、触觉三种数据，其实是同一组物理属性在不同感官通道上的投影。
+
+
+
+
+
+    作者丨陈淑瑜
+    编辑丨岑   峰
+                                                                                                       
+
+
+
+2026年9月8日，欧洲计算机视觉会议 ECCV 在瑞典马尔默召开。在 9 月 9 日的“ Embodied Multimodal Reasoning in Physical Environments（物理环境中的具身多模态推理）”专题分场上，斯坦福大学计</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/industrynews/JOCrsWfvSRLatm7i.html" target="_blank" rel="noopener">闲鱼反诈重拳出击：联手警方抓获涉诈人员40余人</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">日前，闲鱼披露暑期打击反诈专项行动进展。专项期间，闲鱼主动向全国公安机关移送反诈线索近百条，积极配合公安机关开展反诈案件侦办，成功破获多个诈骗犯罪节点，并协助公安机关抓获涉诈人员40余人。
+ 
+长久以来，电信网络诈骗治理面临一个共性难题：诈骗实施环节往往发生在平台之外。不法分子多在平台建立联系后，将用户引至站外，使其脱离平台安全保护后再实施诈骗。而正处于诈骗话术操控中的用户，对平台的风险提示大多视而不见。待用户察觉报案，资金通常已被转走，事后处罚难以挽回损失。
+ 
+在此背景下，闲鱼积极探索“事中阻断”新路径，构建了“客服电话提醒＋公安预警＋异常链路拦截”三位一体的事中干预体系，与公安机关的处置</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>少数派</h2>
+            <p class="description">来自 少数派 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/114458" target="_blank" rel="noopener">本周看什么 | 最近值得一看的 7 部作品</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">📅本周新预告《哥斯拉-0.0》正式预告9月8日，电影《哥斯拉-0.0》发布了正式预告，将于11月3日在日本上映、11月6日在北美上映。山崎贵回归担任导演、编剧和特效总监，神木隆之介、滨边美波回归出演， ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/114449" target="_blank" rel="noopener">iPhone 18 和 Duo 发布会上，Apple 没告诉你的那些事</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">新品尚未发货，我们继续整理了一些发布会中未提及的细节，不妨一起来看看有没有你感兴趣的。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/113605" target="_blank" rel="noopener">「正常」已是不易：聊聊不那么标新立异的理想 i6</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">如果你想买一辆能够长期持有、同时又足够「正常」的新能源车，我还是非常推荐去试试理想 i6。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/114414" target="_blank" rel="noopener">新 iPhone 配件精选：多种组合一次配齐</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">iPhone18Pro/ProMax即将开售，这次我们围绕新iPhone准备了几种常用配件，并整理成了五种配件组合，覆盖机身防护、充电、数据连接和磁吸支撑。其中，日常防护组合优惠29元，防护充电组合优 ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/114439" target="_blank" rel="noopener">派早报：商务部回应美国 AI 蒸馏指控</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">商务部回应美国 AI 蒸馏指控
+谷歌声称为了合规将「降级」欧盟搜索服务
+Apple 智能将有用量限制
+OpenAI 将与三星合作开发芯片
+小岛秀夫新游戏被索尼取消，转由微软发行
+DeepSeek V4.1 发布
+看看就行的简讯
+少数派的近期动态
+你可能错过的好文章
+查看全文</p>
+            </article>
+            
+        </section>
+        
+
+        <!-- 工具推荐 -->
+        
+
+        <!-- 结束语 -->
+        
+        <section class="closing">
+            <p>以上是今日资讯汇总，更多详情请点击链接查看。</p>
+        </section>
+        
+
+        <!-- 历史日报 -->
+        <section class="history">
+            <h2>📚 历史日报</h2>
+            <ul>
+                
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>🤖 由 <a href="https://github.com" target="_blank">ADailyReport</a> 自动生成</p>
+        <p>© 2026 ADailyReport - 每日AI资讯</p>
+    </footer>
+</body>
+</html>
