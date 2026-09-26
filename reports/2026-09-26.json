@@ -1,0 +1,267 @@
+{
+  "title": "2026年09月26日 每日资讯汇总",
+  "summary": "今日共收集 35 条资讯，涵盖 7 个来源。",
+  "hotTopics": [],
+  "categories": [
+    {
+      "name": "V2EX",
+      "description": "来自 V2EX 的最新资讯",
+      "items": [
+        {
+          "title": "[推广] 做了一个海外社媒增长的 SMM 面板，覆盖 TikTok/YouTube/INS 等平台",
+          "summary": "自己做的一个 SMM 面板：smmfansclub.com\n主要功能：\n覆盖 TikTok 、YouTube 、Instagram 、Facebook 、X 等主流平台\n粉丝、点赞、播放量、互动等服务，按量下单\n注册 → 充值 → 选服务 → 提交订单，流程简单\n有印度、美国、巴基斯坦、孟加拉等地区的本地化资源\n适合人群：做跨境出海的卖家、海外社媒运营、MCN 和代理商（支持批量下单）。\n有需要的 V 友可以注册试试，小金额充值就能测。欢迎反馈问题和建议，看到都会回。\nTG 测试 ： https://t.me/tiktok_zhangfen1",
+          "url": "https://www.v2ex.com/t/1244861#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[分享创造] 一个帮你挖掘网站优化点的 Chrome 插件 (可自由接入智能体模型)",
+          "summary": "网址: https://www.aidevpush.com （你可以从 beta 版中直接获得插件源码）\nhttps://chromewebstore.google.com/detail/%E4%BA%91%E7%AB%AFcoding-%E8%87%AA%E5%8A%A8%E5%88%9B%E6%96%B0%E5%8A%A9%E6%89%8B/piokpdkhnfegkfpcmpjfndocaimepkgk?hl=zh-CN&utm_source=ext_sidebar\nhttps://www.bilibili.com/video/BV1wQhD6bEUh/?spm_id_from=333.",
+          "url": "https://www.v2ex.com/t/1244859#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[程序员] 一个界面， 所有 Coding Agent 跨会话接力 跨 Agent 历史感知与同伴协同",
+          "summary": "https://github.com/juejijianghuaa/CoDock-Release/releases/tag/v0.5.0\nv0.5.0 (2026-09-26)\n这一版带来两大里程碑特性：跨会话接力（ Session Continuity Relay ） 与 内置 CoDock MCP 服务（跨 Agent 历史感知与同伴协同）。彻底解决“额度用尽或陷入死循环时换个 Agent 接着干”的断层痛点，并打破 Agent 之间的信息孤岛，开启多 Agent 协同工作流。\n新功能\n跨会话接力机制（ Session Continuity Relay ）：\n历史会话列表一键触发：鼠标悬停",
+          "url": "https://www.v2ex.com/t/1244858#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[程序员] 刷屏式地注册 muse，所以这玩意儿你们用起来了吗？",
+          "summary": "暂无摘要",
+          "url": "https://www.v2ex.com/t/1244857#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[程序员] ChatGPT Windows 客户端今天打开一直转圈圈",
+          "summary": "昨天用的好好的，今天直接打不开，重启电脑，卸载软件重装都一样，有人和我一样的吗",
+          "url": "https://www.v2ex.com/t/1244856#reply0",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "name": "钛媒体",
+      "description": "来自 钛媒体 的最新资讯",
+      "items": [
+        {
+          "title": "阿里的蒸汽机时代",
+          "summary": "从GMV到机器思考总量，吴泳铭给机器找了一个“马力”。",
+          "url": "https://www.tmtpost.com/8152987.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "新思科技获评级上调，这位分析师认为该股还有69%的上涨空间",
+          "summary": "在投资者日活动临近之际，分析师对新思科技（Synopsys）的看法愈发乐观。",
+          "url": "https://www.tmtpost.com/8152984.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "Vertiv以及另外6只值得现在买入的AI工业类股票",
+          "summary": "Vertiv 位居榜首。富国银行的斯蒂芬·图萨提出的其他推荐包括：开利全球、特灵、江森自控、多佛、伊顿以及艾默生电气。",
+          "url": "https://www.tmtpost.com/8152979.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "阿克曼发文后，霍华德·休斯高管买入股票，该公司股价上涨",
+          "summary": "根据美国证券交易委员会（SEC）的文件显示，霍华德·休斯公司的高管马克·格兰迪森和安德鲁·戴维斯于周三买入了公司股票。",
+          "url": "https://www.tmtpost.com/8152977.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "京东，具身智能大玩家？",
+          "summary": "不造机器人，押注机器人背后的生意。",
+          "url": "https://www.tmtpost.com/8152876.html",
+          "source": "钛媒体"
+        }
+      ]
+    },
+    {
+      "name": "雷峰网",
+      "description": "来自 雷峰网 的最新资讯",
+      "items": [
+        {
+          "title": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
+          "summary": "雷峰网报道：\n2026 年，具身智能行业最难回答的问题之一，是怎么落地。\n这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。智元称之为「部署态」，机器人开始离开发布会和展会，进入真实的生产与服务环境。\n一台机器人在舞台上完成一次高难度动作，足以成为热点；让数百台机器人每天准时上岗，在真实客流里连续工作，并且随着运营不断改进，才真正考验一家机器人的产业化能力。\n9 月 24 日，智元给出了自己的答案。\n当天，横琴长隆飞船乐园焕新开园。作为全球首个大规模具身智能主题乐园，乐园此次引入超 300 台智元机器人，",
+          "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "梁文锋狙击战：深扒那些梁文锋署名的论文有多牛",
+          "summary": "过去三年，梁圣署名了11篇论文，每篇都几乎震动世界。\n\n\n\n\n\n    作者丨高允毅\n\n    编辑丨岑   峰\n                                                                                                       \n\n\n\n当 RSI 的风吹到了 DeepSeek，这次讨论的是一个新话题“自动化沙箱”。\n9 月 19 日，arXiv 更新了一篇 DeepSeek 新论文《DSec：面向大规模智能体训练的高效沙箱基础设施》，论文长达 31 页，首次展示了 DeepSeek 自动化沙箱系统 ——",
+          "url": "https://www.leiphone.com/category/yanxishe/8IlKEXMO2Pxju8ke.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "抽“锦鲤”享美食！“点亮杭州 碰见好运”服务消费季活动启动",
+          "summary": "9月24日，“点亮杭州 碰见好运”服务消费季活动在西湖区天目里国际街区正式启动。活动依托支付宝”碰一下”数字支付技术，结合政府消费券发放、平台文旅权益赠送及AI互动装置抽奖等方式，为杭州市民和来杭游客打造具有本地特色的假日消费体验。\n\n “点亮杭州 碰见好运”互动装置通过智能互动抽奖发券的新模式带动城市消费氛围。该装置配置互动灯光，象征城市万千烟火气小店和消费脉络，在城市地标中点亮杭州烟火。市民游客打卡灯光装置的同时，用手机碰一碰互动区域即可参与抽奖。每累计100人点亮成功即自动触发一次“互动抽奖”。奖池包含杭州国际会议中心洲际酒店客房券/下午茶券、99元无门槛红包、喜茶券、天目里美术馆门票、",
+          "url": "https://www.leiphone.com/category/industrynews/0imdK8Mce43TQgK9.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "从105mm人像到400mm远方 Telesin发布iPhone 18大师影像套装",
+          "summary": "2026年9月21日，深圳——雷峰网获悉，Telesin泰迅正式发布面向iPhone 18 Pro系列的大师影像套装，并同步带来Classic经典版与Neo版两条产品线。新品以2X和3.5X双镜头覆盖约105mm人像与约400mm远摄，通过手柄、供电、实体操控、彩焦App和镜头配件生态，构成一套面向移动创作者的随身影像系统。\n\nTelesin发布iPhone 18大师影像套装Classic与Neo\n从iPhone 17的市场验证继续向前\n上一代iPhone 17大师影像套装全球销量超过10万套，并进入全国3000多家Apple授权零售体系门店。销量与渠道反馈表明，用户对手机摄影配件的需求已经从",
+          "url": "https://www.leiphone.com/category/weiwu/11usdeSVZPN0BJs0.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "现在不买带线控底盘的车，三年后注定会后悔",
+          "summary": "如果要找出2026年车市升温最快的技术赛道，线控底盘一定算一个。\n此前在2024年，线控转向首次在量产车上出现，当时行业里的共识是：好东西，但离普通人太远。\n2026年7月1日，由上汽集团牵头制定的线控转向国家标准《汽车转向系基本要求》（GB17675-2025）正式实施，政策闸门打开。\n2026年9月16日，理想i9上市，线控转向加后轮转向标配。李想专门在微博上谈起这两项配置，他的思考是，大空间与好操控，需要靠技术进步同时实现，不能一直依赖把车做大。线控转向和后轮转向，正是理想为改善体验投入的方向。\n由此可见，普及线控底盘，正在成为行业共识。\n9月23日，全新一代智己LS6上市，19.79万",
+          "url": "https://www.leiphone.com/category/transportation/htudSUNPncuLmMfb.html",
+          "source": "雷峰网"
+        }
+      ]
+    },
+    {
+      "name": "量子位",
+      "description": "来自 量子位 的最新资讯",
+      "items": [
+        {
+          "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+          "summary": "暂无摘要",
+          "url": "https://www.qbitai.com/2026/09/497278.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+          "summary": "暂无摘要",
+          "url": "https://www.qbitai.com/2026/09/497177.html",
+          "source": "量子位"
+        },
+        {
+          "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+          "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
+          "url": "https://www.qbitai.com/2026/09/497108.html",
+          "source": "量子位"
+        },
+        {
+          "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+          "summary": "Agent的手越伸越长",
+          "url": "https://www.qbitai.com/2026/09/497075.html",
+          "source": "量子位"
+        },
+        {
+          "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+          "summary": "一场物理世界的基模实验",
+          "url": "https://www.qbitai.com/2026/09/497070.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "开源中国",
+      "description": "来自 开源中国 的最新资讯",
+      "items": [
+        {
+          "title": "灵界 OS 6.0 稳定版 · 三处更新与一个崩溃修复",
+          "summary": "这次推到 Gitee master，提交号 b726a1d，共三处改动。 1. 桌面体验 小组件支持按标题栏拖动，位置会记住，下次打开还在原地 点「窗口渲染优化」会先弹出确认，不再直接切换 24Hz 刷新率不再整页关掉 CSS 动画，动画保留，只是降帧 2. 6.0 与停用动画 设置 → 其他，新增「停用动画」开关 全仓库版本号统一改为灵界 6.0 ...",
+          "url": "https://www.oschina.net/news/502745",
+          "source": "开源中国"
+        },
+        {
+          "title": "五引擎微内核架构与分层解耦的工程实践",
+          "summary": "本文为 55873 生态系统技术白皮书系列第 8 篇（收官之作），面向开发者社区，聚焦开源共建理念与架构设计。 核心问题：如何在开放架构和保护核心证据数据之间找到平衡？如何做到底层永远稳定、业务永远可迭代？如何做到可信 AI 评测、数字资产存证、多语言文脉生态三大赛道的基础设施？ 一、开源核心理念：开放架构，不开...",
+          "url": "https://www.oschina.net/news/502743",
+          "source": "开源中国"
+        },
+        {
+          "title": "Apache 基金会项目 Casbin Gateway 新增 Agent 外发监测，可发现 ZCode 这类整仓上传",
+          "summary": "九月中旬，智谱的 AI 编程工具 ZCode 被人发现会在后台把整个代码仓库打包上传，而且连 .git 历史一起传。这件事在社区里讨论了好几天（相关报道附在文末）。 我们做的 Casbin Gateway 是 Apache 软件基金会（ASF）旗下的开源项目，用来管理本机的 AI 编程 Agent（GitHub：https://github.com/apache/casbin-gateway ）。...",
+          "url": "https://www.oschina.net/news/502741",
+          "source": "开源中国"
+        },
+        {
+          "title": "SpringBootBucket 4.1.1 发布，最新 Spring Boot 4.x 全家桶",
+          "summary": "SpringBootBucket4.x全家桶基于最新版本 Spring Boot 4.x 版本编写。Spring Boot 4.0基于Spring Framework 7.0，全面支持 Java25（含虚拟线程优化）。核心的新特性包括：HTTP Service Clients 简化远程调用；原生API版本管理；全面采用JSpecify空安全体系（默认为空，编译器防NPE）；关键依赖升级至Jackson 3.0、Tomcat ...",
+          "url": "https://www.oschina.net/news/502740",
+          "source": "开源中国"
+        },
+        {
+          "title": "龙蜥社区SkillHub：Workshop实战、云栖颁奖、推荐系统发布，三箭齐发",
+          "summary": "AI原生操作系统正在从概念走向落地，而Skill生态的繁荣程度，将决定这一代操作系统能否真正支撑起智能体的规模化运行。今年开放原子开源生态大会上，龙蜥社区正式升级为AI原生操作系统社区，同期发布社区级技能生态平台SkillHub——这是龙蜥对“操作系统如何承载AI能力”这一产业命题给出的基础设施答案。两个月来，数百...",
+          "url": "https://www.oschina.net/news/502739",
+          "source": "开源中国"
+        }
+      ]
+    },
+    {
+      "name": "少数派",
+      "description": "来自 少数派 的最新资讯",
+      "items": [
+        {
+          "title": "本周看什么 | 最近值得一看的 6 部作品",
+          "summary": "📅本周新预告《侦战》定档预告9月21日，电影《侦战》发布定档预告，宣布10月1日上映。影片由孔令政编剧、导演，古天乐、此沙、任达华、谢君豪领衔主演，袁富华、卢慧敏、杨伟伦主演，讲述一名嫌疑人从警署羁押 ...查看全文",
+          "url": "https://sspai.com/post/114957",
+          "source": "少数派"
+        },
+        {
+          "title": "新玩意 252｜少数派的编辑们最近买了啥？",
+          "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
+          "url": "https://sspai.com/post/114954",
+          "source": "少数派"
+        },
+        {
+          "title": "家庭饮品 DIY 指南（五）：特调咖啡及其他饮品",
+          "summary": "往期文章：（一）工欲善其事，必先利其器（二）常用液体物料推荐（三）常用固体物料推荐（四）奶昔、柠檬和茶系列配方这一篇的配方主要是特调咖啡和其他类饮品，特调咖啡中的咖啡液按照固定比例萃取Espresso ...查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+          "url": "https://sspai.com/prime/story/home-made-beverages-5",
+          "source": "少数派"
+        },
+        {
+          "title": "微软在游戏行业的早期试水：一段与梦工厂的「梦幻联动」",
+          "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+          "url": "https://sspai.com/post/113823",
+          "source": "少数派"
+        },
+        {
+          "title": "古董电脑室十周年记：为什么我不再是收藏家（上）",
+          "summary": "站在十年的时间节点回望，2016 年知乎专栏「古董电脑室」的起点，其实并非一个怀旧的「博物馆」，而是一个试图在商业上寻找切口的「最小可行产品」（MVP）。然而，这场始于「市场验证」的创业实验，在随后的十年里，撞上了中国独特的社群生态与商业现实，最终将我推向了一个完全意想不到的方向，并彻底改变了我对「技术」和「收藏」的理解。查看全文",
+          "url": "https://sspai.com/post/114395",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "name": "爱范儿",
+      "description": "来自 爱范儿 的最新资讯",
+      "items": [
+        {
+          "title": "早报｜网易云音乐鸿蒙版正式上线/任正非重申「华为不造车」/腾讯QClaw将停运",
+          "summary": "· 腾讯 WorkBuddy 上线微信小程序生成和发布能力\r\n· Google 下周将把 TPU 送入轨道，测试太空运行条件\r\n· 9999 元，尼康发布 Z5IIC 全画幅相机\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1682171?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "14.99 万元起，全新旅行者 7 开启预售，插混燃油两手抓",
+          "summary": "也是一种「三电机」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1682158?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "奕境 X9 上市 28.98 万元起！华为系大六座有了一个新选项",
+          "summary": "奕境获得了一个「天胡开局」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1682142?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "1/3 价格，1/8 重量，Meta 新眼镜秒杀 Vision Pro 了？",
+          "summary": "从现在起，眼镜要为「超级智能」而打造\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1682116?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "00 后开发者，给我安利了这几个超好用的鸿蒙新能力",
+          "summary": "三位 00 后鸿蒙开发者带着自己做的 App，和我们聊了聊 AI 在鸿蒙开发中帮了什么忙，哪些细节还得亲自打磨，以及 AI 原生时代的工作是如何开展的\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1682109?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "closing": "以上是今日资讯汇总，更多详情请点击链接查看。",
+  "meta": {
+    "generatedAt": "2026-09-26T03:43:17.759Z",
+    "sourceCount": 35,
+    "date": "2026年09月26日",
+    "fallback": true
+  }
+}
