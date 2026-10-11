@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年10月11日 每日资讯汇总 | ADailyReport - 每日AI资讯</title>
+    <meta name="description" content="今日共收集 35 条资讯，涵盖 7 个来源。">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        header .date {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        /* Summary */
+        .summary {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .summary h2 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .summary p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        /* Hot Topics */
+        .hot-topics {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .hot-topics h2 {
+            color: #ff6b6b;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hot-topics ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .hot-topics li {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+
+        .hot-topics li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hot-topics li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Categories */
+        .category {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .category h2 {
+            color: #333;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .category .description {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .article {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        .article h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .article h3 a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .article h3 a:hover {
+            color: #667eea;
+        }
+
+        .article .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .article .meta span {
+            margin-right: 15px;
+        }
+
+        .article .summary-text {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Tools */
+        .tools {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .tools h2 {
+            color: #51cf66;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .tool-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .tool-item:last-child {
+            border-bottom: none;
+        }
+
+        .tool-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
+        }
+
+        .tool-item .desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        /* Closing */
+        .closing {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            text-align: center;
+            color: #666;
+        }
+
+        /* History */
+        .history {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .history h2 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .history ul {
+            list-style: none;
+        }
+
+        .history li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .history li:last-child {
+            border-bottom: none;
+        }
+
+        .history a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .history a:hover {
+            text-decoration: underline;
+        }
+
+        .history .date {
+            color: #888;
+            font-size: 0.85rem;
+            margin-left: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .category, .summary, .hot-topics, .tools, .closing, .history {
+                padding: 20px;
+            }
+        }
+
+        /* Fallback badge */
+        .fallback-badge {
+            display: inline-block;
+            background: #ffe066;
+            color: #333;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 ADailyReport - 每日AI资讯</h1>
+        <p class="date">📅 Invalid Date <span class="fallback-badge">简化版</span></p>
+    </header>
+
+    <div class="container">
+        <!-- 简报摘要 -->
+        <section class="summary">
+            <h2>📝 今日简报</h2>
+            <p>今日共收集 35 条资讯，涵盖 7 个来源。</p>
+        </section>
+
+        <!-- 热点话题 -->
+        
+
+        <!-- 分类资讯 -->
+        
+        <section class="category">
+            <h2>V2EX</h2>
+            <p class="description">来自 V2EX 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1247788#reply4" target="_blank" rel="noopener">[Codex] Codex 已经重置，这次真早啊</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">已经用起来了</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1247787#reply1" target="_blank" rel="noopener">[分享发现] 做了一个 Agent Skills 商店 WorkSkill，让 AI 少一点重复调教，几百个精品高质量 skill</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">做了一个 Agent Skills 商店 WorkSkill ，让 AI 少一点重复调教
+用 Claude Code 、Codex 或 Cursor 做事，经常需要反复交代同一套要求：网页怎么排版、PPT 怎么组织、文档按什么格式交付。
+我们做了 WorkSkill，把这些工作方法整理成可复用的 Skills ，让 Agent 按现成的流程完成任务。
+
+目前站内已有（截至 2026 年 10 月 11 日）：
+427 个已发布 Skills，涵盖网页、幻灯片、视频、文档等工作流。
+566 个 AI 视频案例，分布在 Fable 5.5 和 Opus 5.5 两个画廊，方便浏览效果、寻找创作灵感</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1247785#reply1" target="_blank" rel="noopener">[分享发现] 写了个不用虚拟网卡、直接对进程 Hook 转发的 Windows 游戏 TCP 加速小工具</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">平时打外服网游或者私服（比如魔兽世界欧服），经常遇到 200+ms 延迟甚至频繁跳断。
+试过市面上的加速器，大部分都要装 TUN/TAP 虚拟网卡改全局网关。平时电脑上跑着 WSL2 、Docker 、公司 VPN ，再开虚拟网卡经常路由冲突，改回直连还容易残留 DNS 污染。另外有些私服世界服跑在 8285 这种非标端口，规则代理漏掉端口就直接判定掉线。
+为了解决这个问题，用 C++ 写了个轻量级的工具：直接通过 MinHook 拦截目标游戏进程（如 WoW.exe ）的 connect 和 WSAConnect 。
+主要特点：
+零虚拟网卡：纯用户态进程注入，不装驱动，不改系统路由表，其他软</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1247784#reply0" target="_blank" rel="noopener">[分享发现] Linkit — 我为知识管理做的开源桌面应用， 100% 免费无广告</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">做了个书签管理工具，面向和我一样受"书签囤积症"困扰的知识工作者。
+核心功能：
+• 本地 SQLite ，打开即用，无需注册
+• AI 页面摘要（支持 OpenAI / DeepSeek / Ollama ）
+• 语义向量搜索（ pgvector ），按意思搜
+• 知识图谱可视化
+• 重复书签检测（精确匹配 + AI 近义匹配）
+• 链接健康扫描（ 404 检测）
+• 免费云同步（ Supabase RLS ，行级安全）
+• 一键导入 Chrome / Firefox / Raindrop
+• 12 款主题
+技术栈：Wails(Go) + React + Vite + Tailwind + S</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1247783#reply0" target="_blank" rel="noopener">[分享创造] [开源] 做了个能让 AI 替你玩的三国 SLG 网页游戏， 让 agent 来一决高下！</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">模型随便选：服务端不跑 AI ，Claude 、GPT 、本地模型、自己写的脚本都行，只要能连 WebSocket 、读 JSON 。
+一键接入：游戏里点「复制给 AI 」，协议文档和令牌会一起复制到剪贴板，贴给 AI 就能开始玩。也可以用 MCP 插件（ npx -y slg-mcp ），在 Claude 、Cursor 里零代码接入。
+人和 AI 规则一样：网页和 Agent 走同一套协议、同一套服务端校验，没有后门。
+排行榜按模型分组：看看哪个模型最会打仗。
+玩法有建城、练兵、抢地、攻城、武将、全服事件、玩家对抗，默认 50 倍速。
+国际站： https://slg.yuntianyou</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>爱范儿</h2>
+            <p class="description">来自 爱范儿 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">AMD YES！老哥给老车插上显卡，手搓「真智驾」</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">苏妈看了都得愣半天。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">· 苹果第二期中国清洁能源基金扩容至 2.12 亿美元
+· Netflix 称约 300 部作品已使用 AI，导演谈降本与创作取舍
+· 长鑫披露 4F² 内存架构进展，首款服务器产品预计年底推出
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1683809?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">17.98 万元起，银河战舰 700 上市，三电机千匹马力，装进家用方盒子</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">吉利想在方盒子市场分一杯羹。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1683673?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">华为 Mate 90 Pro Max 深度体验：Mate 系列新高峰</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">Mate 系列影像新高峰
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1683674?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">24 天估值暴涨 37 倍，这就是 AI 圈年度爽文</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">LLM 给人用，这个决策模型给代码用
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>钛媒体</h2>
+            <p class="description">来自 钛媒体 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8164047.html" target="_blank" rel="noopener">订单破万、上市直降5万元，北汽泰钽没有越野“新手保护期”</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">新能源越野市占率飙升。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8164048.html" target="_blank" rel="noopener">远海国际，走不出“欧洲游”？</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">旅游大热，但欧洲市场既是支柱，也是隐患。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8164031.html" target="_blank" rel="noopener">连续举牌，新华保险沉寂一年半后又出手了</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">再度举牌为哪般？</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8163976.html" target="_blank" rel="noopener">十一黄金周OTA分野：同程、飞猪们卖库存，豆包、千问们卖答案</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">旧的OTA卖的是库存，新的AI旅游卖的是确定性。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8163971.html" target="_blank" rel="noopener">停车费告别“不足1小时按1小时”，一场关于几毛钱的治理考试</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">这笔钱小到不值得专门绕路，但它定义了一件事：占多久，付多少。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>雷峰网</h2>
+            <p class="description">来自 雷峰网 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html" target="_blank" rel="noopener">字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">DeepSeek 的省钱杀手锏，为何成了致命盲区？
+
+
+
+
+
+    作者丨高允毅
+
+    编辑丨岑   峰
+                                                                                                       
+
+
+
+同一个问题问 DeepSeek 两次，只是多敲了几个空格，给出的答案居然一个像“天才”，一个像“智障”。
+9月底，字节团队的最新论文《Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compressi</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/glDqTmPAjocSjhzo.html" target="_blank" rel="noopener">解读丨全系上自研电池，理想要干什么？</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">理想要把自研从从一项研发能力，变成一套更稳定的产业能力。
+
+
+
+
+
+
+
+
+
+
+作者 | 王瑞昊
+
+编辑 | 李雨晨
+
+
+
+
+
+9月7日15点，理想汽车给新一代MEGA用户划出了一条时间线。
+在这个时间点之前锁单的用户，首批车辆仍采用宁德时代5C三元锂电池；15点之后锁单的用户，则将进入搭载理想自研5C三元锂电池的交付批次，预计11月开始交付。
+就在三天前，理想汽车刚刚宣布了一笔26.5亿元的投资。
+9月4日，北京理想汽车有限公司拟以现金方式向欣旺达动力增资26.5亿元。交易完成后，北京理想汽车将直接持有欣旺达动力8.79%的股份。
+叠加此前通过重庆车之辕创业投资有限公司持有的2.60%股份，理</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/ZbUAuIZ3oSpuD906.html" target="_blank" rel="noopener">45分钟小定8000台，智己LS6这次成了？</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">这一次，智己能走出「叫好不叫座」吗？
+
+
+
+
+
+
+
+
+
+
+作者 | 王瑞昊
+
+编辑 | 李雨晨
+
+
+
+
+
+9月10日，全新一代智己LS6正式开启预售，预售价20.99万元起，并将于9月23日正式上市。
+预售开启45分钟，小订突破8000台。
+这是智己“Next·2028战略”下的首款20万级纯电SUV，也是LS6迭代到第四代的产品。
+LS6一直是智己的当家花旦。但对这家成立近六年的品牌来说，智己身上始终贴着一个不算好听的标签：技术很好，但叫好不叫座。
+在智己眼中，全新一代LS6是全线控大五座家庭SUV，把上汽70年的造车积淀，以9系的旗舰标准，放进一台20万级的家庭SUV里。
+三大下一代技术是</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/KdptMsXu5w9oiUOo.html" target="_blank" rel="noopener">买理想，还要不要认电池品牌？理想总裁马东辉的回应来了</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">MEGA电池召回事件让理想意识到掌握核心数据的重要性。
+
+
+
+
+
+
+
+
+
+
+作者 | 王瑞昊
+
+编辑 | 李雨晨
+
+
+
+
+
+“2026年以后新发布的车型，我们都希望采用自研电池。”
+这不是一次试探。雷峰网获悉，目前，理想自研电池已经搭载在新款理想L8、L6和i8上；今年第四季度，新一代理想MEGA、全新理想i9以及2026款理想i6，也将陆续进入自研电池时代。从增程到纯电，六款车在一年之内完成切换。
+同一款车、两个电池版本，用户会不会犹豫？马东辉说：“没有明显波动，反而是有用户主动找过来，希望排产尽早切换，因为他们想尽早提到搭载自研电池的车。”
+“理想为什么要自研电池？”这是马东辉最近被问及最</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/oiSyYkdJBNF6AfVW.html" target="_blank" rel="noopener">新智驾独家丨奇瑞高层人事调整：智能化中心负责人谢保军疑似离职</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">内部飞书状态已显示暂停使用。
+
+
+
+
+
+
+
+
+
+
+作者 | 王瑞昊
+
+编辑 | 李雨晨
+
+
+
+
+
+雷峰网《新智驾》独家获悉，奇瑞汽车股份有限公司副总裁、智能化中心负责人谢保军疑似已离职，内部飞书状态已显示暂停使用。
+雷峰网《新智驾》就此事向奇瑞汽车求证，截止发稿未作回应。
+谢保军于2024年10月加入奇瑞，最初任职于旗下大卓智能，主要负责智能驾驶相关研发工作。2025年5月，奇瑞将雄狮科技、大卓智能以及研发总院相关业务整合，成立奇瑞智能化中心，谢保军成为中心实际运营负责人，统筹智能座舱、智能辅助驾驶、数字架构等智能化业务。
+此后，奇瑞进一步推进猎鹰智驾技术方案归一、合作伙伴收敛和全栈自研，并在</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>开源中国</h2>
+            <p class="description">来自 开源中国 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502956" target="_blank" rel="noopener">被字节索赔 800 万的实习生“出道”：20 万符号造 AI 词典，打造世界模型创业公司估值 2 亿美元</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">打进字节训练集群、污染同事的模型训练，然后被辞退、被索赔 800 万、被法院判赔 50 万——两年后，同一个人的新实验室拿到近 3000 万美元融资，投后估值 2 亿美元。彭博社 10 月 8 日报道了这个名字：田柯宇，前字节跳动实习研究员，北大在读。他创办的这家还没有名字、也没有产品的隐身公司，押注的是世界模型。 把时间...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502955" target="_blank" rel="noopener">QuotaPanel v0.2.0 点开菜单栏就看到额度，MiMo 额度来源上线</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">QuotaPanel v0.2.0 把额度搬进了系统菜单栏，顺手接上了小米 MiMo Token Plan。 QuotaPanel 是一款开源的桌面端 AI 额度面板，把散落在各家控制台里的订阅与 API 余额集中到一张界面上。这一次更新解决两件事：看额度的路径更短，出了怪问题查得到根因。订阅再多也不慌，一张面板看完所有 AI 额度。 📌 菜单栏点一下，...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502954" target="_blank" rel="noopener">LinkAndroid v2.4.0 投屏内核更新至 scrcpy 5.0，编码解码全面提速</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">投屏最吃 CPU 的那一步，这次交给了电脑显卡。 LinkAndroid 是把 Android 手机连到电脑的桌面工具：投屏操控、截屏美化、录屏、文件管理、脚本自动化都在里面。v2.4.0 把投屏内核换成了 scrcpy 5.0，电脑端默认启用硬件解码，投屏更省电、更安静。 真正流畅的投屏，不该让电脑的风扇替手机的像素买单。 投屏默认走硬件解...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502953" target="_blank" rel="noopener">ModStartBlog v11.3.0 安全加固、体验优化，自动化测试更强大</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">ModStart 是一个基于 Laravel 模块化极速开发框架。模块市场拥有丰富的功能应用，支持后台一键快速安装，让开发者能快的实现业务功能开发。 系统完全开源，基于 Apache 2.0 开源协议。 功能特性 丰富的模块市场，后台一键快速安装 会员模块通用且完整，支持完整的API调用 大文件分片上传，进度条显示，已上传文件管理 强...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/502952" target="_blank" rel="noopener">ModStartCMS v10.3.0 安全加固、体验优化，自动化测试更强大。</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">ModStart 是一个基于 Laravel 模块化极速开发框架。模块市场拥有丰富的功能应用，支持后台一键快速安装，让开发者能快的实现业务功能开发。 系统完全开源，基于 Apache 2.0 开源协议，免费且不限制商业使用。 功能特性 丰富的模块市场，后台一键快速安装 会员模块通用且完整，支持完整的API调用 大文件分片上传，进度条显...</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>量子位</h2>
+            <p class="description">来自 量子位 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/502467.html" target="_blank" rel="noopener">特斯拉FSD，在欧洲被打回原形</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">马斯克反而发文道谢？</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/502426.html" target="_blank" rel="noopener">TRAE终于把Code和Work合并了</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">大写的方便</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/502422.html" target="_blank" rel="noopener">联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/502411.html" target="_blank" rel="noopener">0.2秒急停、秒级重规划！因果智能走进真实世界</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/502364.html" target="_blank" rel="noopener">字节找到了DeepSeek时强时弱的原因</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">答不答得对，得看Token站位</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>少数派</h2>
+            <p class="description">来自 少数派 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115237" target="_blank" rel="noopener">App+1｜专注星空：让「少刷手机」这件事更愉悦一点</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">把决定使用时长的时机，放到每次打开应用之前。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115566" target="_blank" rel="noopener">本周看什么 | 最近值得一看的 11 部作品</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">📅本周新预告《寒夜怪谈》新预告10月1日，电影《寒夜怪谈》发布了新预告，将于11月13日在北美上映。缇·威斯特（《X》《珀尔》《玛克辛》）执导，约翰尼·德普回归奇幻巨制，将狄更斯名著《圣诞颂歌》改编为 ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115456" target="_blank" rel="noopener">vivo X500 Pro Max 影像漫谈：当视频创作像拍照一样轻巧</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">让生活里的寻常片刻，在被轻松记录的同时依然经得起回味。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/114869" target="_blank" rel="noopener">App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115532" target="_blank" rel="noopener">派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型查看全文</p>
+            </article>
+            
+        </section>
+        
+
+        <!-- 工具推荐 -->
+        
+
+        <!-- 结束语 -->
+        
+        <section class="closing">
+            <p>以上是今日资讯汇总，更多详情请点击链接查看。</p>
+        </section>
+        
+
+        <!-- 历史日报 -->
+        <section class="history">
+            <h2>📚 历史日报</h2>
+            <ul>
+                
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>🤖 由 <a href="https://github.com" target="_blank">ADailyReport</a> 自动生成</p>
+        <p>© 2026 ADailyReport - 每日AI资讯</p>
+    </footer>
+</body>
+</html>
