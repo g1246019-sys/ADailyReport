@@ -1,0 +1,267 @@
+{
+  "title": "2026年10月23日 每日资讯汇总",
+  "summary": "今日共收集 35 条资讯，涵盖 7 个来源。",
+  "hotTopics": [],
+  "categories": [
+    {
+      "name": "V2EX",
+      "description": "来自 V2EX 的最新资讯",
+      "items": [
+        {
+          "title": "[分享创造] 应用商店截图美化工具 Pixsolo 更新：支持折叠屏 iPhone / Watch / Mac 边框，继续免费",
+          "summary": "V 友们又见面了，\n之前在社区里分享过的应用商店截图包装工具 Pixsolo 最近完成了一次素材更新。\n首先说明大家最关心的成本问题：Pixsolo 依然保持完全免费使用，核心功能不设付费门槛，希望能继续帮独立开发者和出海团队省去折腾上架宣传图的时间。\n一、 本次主要更新内容\n针对折叠屏形态提供了专属的展开态与折叠态高精度边框，方便大家提前为大屏分屏、多窗口交互制作应用商店预览图与宣发物料。\n\n补齐了手表端应用展示模型，涵盖多款表壳与表盘布局，适合做 watchOS 、独立手表工具或健康类应用的朋友直接套用。\n\n补充了 MacBook 系列笔记本边框，做跨端展示（ iOS / iPadOS +",
+          "url": "https://www.v2ex.com/t/1251210#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[Claude] Claude 和 ChatGPT 的最佳联网方式是什么？",
+          "summary": "都用桌面版，在 Mac 上通过 Surge 连日常机场，但经常遇到连不上的情况需要换线路，甚至切备用机场，代码联网也是挺麻烦需要提醒国内外分流，近期用了大半年的 Claude 也终于被封了。\n想请教大家，桌面版最佳的联网方式是啥？",
+          "url": "https://www.v2ex.com/t/1251209#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[问与答] v2ex 你们每天逛的最多的是哪些节点？",
+          "summary": "我先来，我逛的最多的是两个：1 最热 （主要是吃瓜心态，看看大家都在聊啥） 2 创意 （主要看看大家都搞了哪些有意思的东西）",
+          "url": "https://www.v2ex.com/t/1251208#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[Claude] 用了很久也比较稳定的 claude pro，昨天被封了",
+          "summary": "昨天没忍住 用了赠送的 100 刀云服务，写了点东西，额度用了 10 来刀\n然后半夜 12 点多邮件发来了，给封了，申诉了，也没通过，😂。\n亏了我用了这么的号了",
+          "url": "https://www.v2ex.com/t/1251207#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[Apple] iOS 第三方微博客户端引发的感慨",
+          "summary": "一直还是在用 Vvebo ，前两天换了手机，虽然 app 早就无了，但是原来还能通过 iCloud 同步一直使用下去，没想到这次显示 app 不存在了，突然想到是因为最近作者的账号因为另一个 App Forward 被封了，这下导致原先这个账号下的所有应用都无了，虽然谈不上天塌了，但是这么多年了，vvebo 的交互体验目前体验下来还是独一档，比如图片直接分享、比如视频拖动和默认静音播放，PWA 版本虽然也是没有广告且时间流正确，但是体验还是差一截。\n感觉现在也不会有开发者再去适配开发新的三方平台了，一是微博已经是上古平台了，流量差太多，二是 iOS 平台下的第三方平台历来没有好的结局\n由此突然",
+          "url": "https://www.v2ex.com/t/1251206#reply1",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "name": "钛媒体",
+      "description": "来自 钛媒体 的最新资讯",
+      "items": [
+        {
+          "title": "县城中产打“减肥针”，很快不用排队了",
+          "summary": "“减肥药王”窗口期的关键一战。",
+          "url": "https://www.tmtpost.com/8177985.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "扫地机集体下滑，张峻彬能带云鲸摆脱others吗？",
+          "summary": "扫地机扫不动了，云鲸不能再“偏科”。",
+          "url": "https://www.tmtpost.com/8177924.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "人形机器人租金暴跌，厂商为什么还在铺渠道？",
+          "summary": "更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付一台机器人，不必再多配一名跟在旁边的工程师。",
+          "url": "https://www.tmtpost.com/8177860.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "小红书为何投不出下一个“完美日记”？",
+          "summary": "种草红利退潮，美妆投资回归产品、技术和耐心。",
+          "url": "https://www.tmtpost.com/8178523.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "悄悄“清算”行政酒廊的万豪，又反悔了？",
+          "summary": "开着亏钱，关了挨骂？",
+          "url": "https://www.tmtpost.com/8178463.html",
+          "source": "钛媒体"
+        }
+      ]
+    },
+    {
+      "name": "开源中国",
+      "description": "来自 开源中国 的最新资讯",
+      "items": [
+        {
+          "title": "MiniMax M3.1 Flash 正式开源",
+          "summary": "MiniMax 把 M3.1 Flash 的权重开源了，规格是 428B 总参数、23B 激活。上线 72 小时，真实用户处理了超过 100 万亿 Token。 M3.1 Flash 能力相比上一代 M3 全面提升，但这次开源公告的重心明显在推理效率上，三组优化值得分别看： 全模型稀疏注意力——前三个全注意力层替换为稀疏注意力，降低长上下文的计算负担。QAT（...",
+          "url": "https://www.oschina.net/news/503167",
+          "source": "开源中国"
+        },
+        {
+          "title": "Linus 使用 Claude 辅助对内核进行迟到已久的历史清理",
+          "summary": "Linus Torvalds 对 Linux Kernel 进行了一个「迟到已久的清理」：把 __get_user() 和 __put_user() 这两个历史悠久的函数从内核里删掉了。他在 commit message 里写得很直白——「这早就该做了：__get_user() 和 __put_user() 完全是历史遗留，永远不是正确选择，而且还被误用」。 __get_user() 和 __put_user() 是内核里...",
+          "url": "https://www.oschina.net/news/503166",
+          "source": "开源中国"
+        },
+        {
+          "title": "DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控",
+          "summary": "软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。 \r\n┌──...",
+          "url": "https://www.oschina.net/news/503165",
+          "source": "开源中国"
+        },
+        {
+          "title": "novel-plus v6.0.0 发布：全新 UI + 后台重构 + AI 长篇小说创作工作流",
+          "summary": "novel-plus v6.0.0 发布了，主要改变如下： 移动端 UI 全面重设计：采用更加简洁、现代的界面风格，优化整体视觉体验与交互。 完善核心功能模块：进一步完善小说筛选、小说书单、小说书评、段落评论、消息系统等功能。 重构管理后台：全面重构 novel-admin 模块，精简后台功能结构，统一技术栈与 UI 风格。 新增 AI 长篇...",
+          "url": "https://www.oschina.net/news/503164",
+          "source": "开源中国"
+        },
+        {
+          "title": "“开源 Windows” ReactOS 迎来重大进展：NTFS 驱动近十年终于可用、系统向 NT6 迁移",
+          "summary": "ReactOS 官方向社区宣布了两个重大进展：NTFS 驱动终于可用了，系统正在向 NT6 架构迁移。对等了近十年的开源 Windows 项目来说，这两件事合在一起，意味着它真的在接近「能用」了。 先说 NTFS。ReactOS 官方用「BREAKING NEWS: NTFS moment!」来宣布——经过近十年的努力，NTFS 驱动终于大幅改进，可以真正用 NTFS 安装...",
+          "url": "https://www.oschina.net/news/503163/open-source-windows-reactos-finally-gets-ntfs-support",
+          "source": "开源中国"
+        }
+      ]
+    },
+    {
+      "name": "雷峰网",
+      "description": "来自 雷峰网 的最新资讯",
+      "items": [
+        {
+          "title": "72岁董明珠：被学生喊奶奶很不开心，人的价值不用年龄来衡量；雷军：汽车产业没有安全，其他都是零；iPhone Duo全球限购，每人限购2台",
+          "summary": "要闻提示\n\n\n\n\n\n\n\n\n\n1.iPhone Duo开启全球限购，每位顾客仅可购买2台\n2.72岁董明珠：被学生喊奶奶很不开心，人的价值不用年龄来衡量\n3.雷军：汽车产业没有安全，其他都是零\n4.星巴克回应消费入座争议：10月22日起全国施行并摆放提示牌\n5.宇树发新人形机器人！能徒手抬汽车，还会勇斗歹徒\n6.离职Kimi后，17岁天才少年陈广宇被曝加入美国AI初创公司\n7.高通拟11月启动全球裁员！\n8.马斯克证实：SpaceX、特斯拉将合并\n今日头条\n\n\n\n\n\n\niPhone Duo开启全球限购，每位顾客仅可购买2台\n\n\n\n\n10月21日消息，随着苹果首款折叠手机iPhone Duo预订需",
+          "url": "https://www.leiphone.com/category/zaobao/3jq4Bj4E3zJhjVBp.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "当车企抢着自研电池，智己为什么反着来？",
+          "summary": "围绕电池展开的产品定义权正在成为行业中的焦点话题。\n小米、理想最近发布了自研电池品牌，与欣旺达、中创新航等电池厂商联手，宣告了车企要深入电池研发、制造环节的决心。李想说，“世界既需要最懂智能电动车的电池企业，也需要最懂电池的智能电动车企业。”\n而宁德时代首席制造官倪军直言，\"还是要专业的人做专业的事\"。\n有人转身自研，也有车企坚持全系搭载宁德时代。智己即将发布的新车，智己LS8NEO纯电版中，从电芯到电池包，均采用了宁德时代电池。\n\n他们相信，将电池交给顶级供应商，是把整车最难、也最不能出错的一环，交给确定性。\n最近，雷峰网实地探访了宁德时代工厂，在宁德时代工厂中，我们也看到，一颗好的电芯是如",
+          "url": "https://www.leiphone.com/category/transportation/tlrld8EmPpRuUKDa.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
+          "summary": "企业AI转型正在走向深水区，从单点工具和业务场景提效，向系统性的组织重构延伸。麦肯锡曾在《组织状态报告2026》中指出，尽管AI被视为新一轮生产力革命的重要驱动力，但真正将其转化为经营业绩的企业仍是少数，背后的关键在于，不少企业仍将AI转型停留在“工具升级”层面，却忽视了更本质的“组织重构”。如何将AI能力融入组织，转化为持续的生产力，将成为影响企业未来竞争力的关键。11月12日，百度将在百度世界2026大会上聚焦“智能组织”议题，或将提出AI时代的组织进化范式。\n \n10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。本届大会设置10+场分论坛，围绕“AI驱动组织跃迁",
+          "url": "https://www.leiphone.com/category/industrynews/vv6pTluWIUjUHMbi.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "深度解读全球 72 小时安全风暴：PHP 事件只是第一枪",
+          "summary": "如果你昨天刚好踩中了所有这些坑，那你大概是 2026 年最惨的安全工程师。\n想象一下，你的网站跑在 Linux 服务器上，前端用 Nginx 做反向代理，后端 Go、PHP、Node.js 混着用，代码存在自己搭的 GitLab 里，靠自动发布流水线更新，HTTPS 证书还选了 eMudhra 签发的证书链。\n恭喜你，喜提安全漏洞全家桶。\n10 月 21 日，PHP 官方爆出两个严重程度 9.2 分（满分 10 分）的远程代码执行漏洞（代号 PHP2Shell）。攻击者无需账号密码，发送一个 HTTP 请求就能直接接管你的服务器。\n同一天，全球最大的私有化代码仓库平台 GitLab 也炸了，爆",
+          "url": "https://www.leiphone.com/category/yanxishe/tvPJIsotGRQWkdwV.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "超智深融 算力圳浓——第二十二届CCF全国高性能计算学术大会在深圳成功举办",
+          "summary": "鹏城向海潮起处，算力奔腾启新程。10月17-20日，第二十二届CCF全国高性能计算学术大会（CCF HPC2026）于深圳国际会展中心正式拉开帷幕。本次大会与2026世界算力博览会（WEC2026）同期同馆举办，让滨海都市的开放蓬勃与超级算力的澎湃革新、前沿学术的深耕探索与产业生态的落地赋能在此碰撞交融，以“学术顶会+产业博览”双轮驱动的全新模式，书写了算力产业数实融合、科创赋能、共生共荣的崭新篇章。\n本届大会立足全国算力产业发展前沿，聚焦国产算力自主创新、超智深度融合、算力互联互通、绿色算力体系建设等核心热点，延续并升级“学术引领、产业融合、生态共建”的特色优势。大会广聚海内外顶尖力量，云集",
+          "url": "https://www.leiphone.com/category/chips/ZciUaXjdyyGRgNRl.html",
+          "source": "雷峰网"
+        }
+      ]
+    },
+    {
+      "name": "少数派",
+      "description": "来自 少数派 的最新资讯",
+      "items": [
+        {
+          "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
+          "summary": "少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文",
+          "url": "https://sspai.com/post/117104",
+          "source": "少数派"
+        },
+        {
+          "title": "把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长",
+          "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+          "url": "https://sspai.com/post/115437",
+          "source": "少数派"
+        },
+        {
+          "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
+          "summary": "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文",
+          "url": "https://sspai.com/post/116923",
+          "source": "少数派"
+        },
+        {
+          "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",
+          "summary": "药物不能解决所有问题，这是是我学到的重要一课。查看全文",
+          "url": "https://sspai.com/post/115090",
+          "source": "少数派"
+        },
+        {
+          "title": "派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等",
+          "summary": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
+          "url": "https://sspai.com/post/116953",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "name": "爱范儿",
+      "description": "来自 爱范儿 的最新资讯",
+      "items": [
+        {
+          "title": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光",
+          "summary": "· 奥迪中国换帅，前奇瑞高管张俊将接任总裁\r\n· 特斯拉三季度净利降 43%，管理层仍强调 FSD 技术领先\r\n· 王兴兴：物理 AI 已有突破苗头，难点在模型与机器人对齐\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "OpenAI 发现 PHP「世纪漏洞」，全球 70% 网站都危险了",
+          "summary": "大的还在后面\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1685507?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "劳斯莱斯同款对开门！仰望旗舰轿车即将发布，还会有固态电池？",
+          "summary": "仰望正在打造属于自己的「古斯特」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1685489?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "PHP爆雷引发全球紧急「拔网线」，别指望 AI 拯救互联网",
+          "summary": "网站被攻破后，数据、密码和令牌都可能受到影响\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1685446?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "首发｜我们用了一周的 iPhone Duo，这里有你关心的一切",
+          "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1685251?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        }
+      ]
+    },
+    {
+      "name": "量子位",
+      "description": "来自 量子位 的最新资讯",
+      "items": [
+        {
+          "title": "特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先",
+          "summary": "FSD一年增长70万付费用户",
+          "url": "https://www.qbitai.com/2026/10/504841.html",
+          "source": "量子位"
+        },
+        {
+          "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+          "summary": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
+          "url": "https://www.qbitai.com/2026/10/504832.html",
+          "source": "量子位"
+        },
+        {
+          "title": "谁在给OpenAI供应具身数据？",
+          "summary": "挤进全球Physical AI核心供应链",
+          "url": "https://www.qbitai.com/2026/10/504800.html",
+          "source": "量子位"
+        },
+        {
+          "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+          "summary": "医疗AI质变时刻",
+          "url": "https://www.qbitai.com/2026/10/504734.html",
+          "source": "量子位"
+        },
+        {
+          "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+          "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
+          "url": "https://www.qbitai.com/2026/10/504730.html",
+          "source": "量子位"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "closing": "以上是今日资讯汇总，更多详情请点击链接查看。",
+  "meta": {
+    "generatedAt": "2026-10-23T03:32:09.270Z",
+    "sourceCount": 35,
+    "date": "2026年10月23日",
+    "fallback": true
+  }
+}

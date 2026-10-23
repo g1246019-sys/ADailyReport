@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年10月23日 每日资讯汇总 | ADailyReport - 每日AI资讯</title>
+    <meta name="description" content="今日共收集 35 条资讯，涵盖 7 个来源。">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        header .date {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        /* Summary */
+        .summary {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .summary h2 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .summary p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        /* Hot Topics */
+        .hot-topics {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .hot-topics h2 {
+            color: #ff6b6b;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hot-topics ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .hot-topics li {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+
+        .hot-topics li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hot-topics li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Categories */
+        .category {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .category h2 {
+            color: #333;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .category .description {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .article {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        .article h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .article h3 a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .article h3 a:hover {
+            color: #667eea;
+        }
+
+        .article .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .article .meta span {
+            margin-right: 15px;
+        }
+
+        .article .summary-text {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Tools */
+        .tools {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .tools h2 {
+            color: #51cf66;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .tool-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .tool-item:last-child {
+            border-bottom: none;
+        }
+
+        .tool-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
+        }
+
+        .tool-item .desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        /* Closing */
+        .closing {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            text-align: center;
+            color: #666;
+        }
+
+        /* History */
+        .history {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .history h2 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .history ul {
+            list-style: none;
+        }
+
+        .history li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .history li:last-child {
+            border-bottom: none;
+        }
+
+        .history a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .history a:hover {
+            text-decoration: underline;
+        }
+
+        .history .date {
+            color: #888;
+            font-size: 0.85rem;
+            margin-left: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .category, .summary, .hot-topics, .tools, .closing, .history {
+                padding: 20px;
+            }
+        }
+
+        /* Fallback badge */
+        .fallback-badge {
+            display: inline-block;
+            background: #ffe066;
+            color: #333;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 ADailyReport - 每日AI资讯</h1>
+        <p class="date">📅 Invalid Date <span class="fallback-badge">简化版</span></p>
+    </header>
+
+    <div class="container">
+        <!-- 简报摘要 -->
+        <section class="summary">
+            <h2>📝 今日简报</h2>
+            <p>今日共收集 35 条资讯，涵盖 7 个来源。</p>
+        </section>
+
+        <!-- 热点话题 -->
+        
+
+        <!-- 分类资讯 -->
+        
+        <section class="category">
+            <h2>V2EX</h2>
+            <p class="description">来自 V2EX 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1251210#reply0" target="_blank" rel="noopener">[分享创造] 应用商店截图美化工具 Pixsolo 更新：支持折叠屏 iPhone / Watch / Mac 边框，继续免费</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">V 友们又见面了，
+之前在社区里分享过的应用商店截图包装工具 Pixsolo 最近完成了一次素材更新。
+首先说明大家最关心的成本问题：Pixsolo 依然保持完全免费使用，核心功能不设付费门槛，希望能继续帮独立开发者和出海团队省去折腾上架宣传图的时间。
+一、 本次主要更新内容
+针对折叠屏形态提供了专属的展开态与折叠态高精度边框，方便大家提前为大屏分屏、多窗口交互制作应用商店预览图与宣发物料。
+
+补齐了手表端应用展示模型，涵盖多款表壳与表盘布局，适合做 watchOS 、独立手表工具或健康类应用的朋友直接套用。
+
+补充了 MacBook 系列笔记本边框，做跨端展示（ iOS / iPadOS +</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1251209#reply1" target="_blank" rel="noopener">[Claude] Claude 和 ChatGPT 的最佳联网方式是什么？</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">都用桌面版，在 Mac 上通过 Surge 连日常机场，但经常遇到连不上的情况需要换线路，甚至切备用机场，代码联网也是挺麻烦需要提醒国内外分流，近期用了大半年的 Claude 也终于被封了。
+想请教大家，桌面版最佳的联网方式是啥？</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1251208#reply1" target="_blank" rel="noopener">[问与答] v2ex 你们每天逛的最多的是哪些节点？</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">我先来，我逛的最多的是两个：1 最热 （主要是吃瓜心态，看看大家都在聊啥） 2 创意 （主要看看大家都搞了哪些有意思的东西）</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1251207#reply1" target="_blank" rel="noopener">[Claude] 用了很久也比较稳定的 claude pro，昨天被封了</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">昨天没忍住 用了赠送的 100 刀云服务，写了点东西，额度用了 10 来刀
+然后半夜 12 点多邮件发来了，给封了，申诉了，也没通过，😂。
+亏了我用了这么的号了</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.v2ex.com/t/1251206#reply1" target="_blank" rel="noopener">[Apple] iOS 第三方微博客户端引发的感慨</a></h3>
+                <p class="meta">
+                    <span>📰 V2EX</span>
+                </p>
+                <p class="summary-text">一直还是在用 Vvebo ，前两天换了手机，虽然 app 早就无了，但是原来还能通过 iCloud 同步一直使用下去，没想到这次显示 app 不存在了，突然想到是因为最近作者的账号因为另一个 App Forward 被封了，这下导致原先这个账号下的所有应用都无了，虽然谈不上天塌了，但是这么多年了，vvebo 的交互体验目前体验下来还是独一档，比如图片直接分享、比如视频拖动和默认静音播放，PWA 版本虽然也是没有广告且时间流正确，但是体验还是差一截。
+感觉现在也不会有开发者再去适配开发新的三方平台了，一是微博已经是上古平台了，流量差太多，二是 iOS 平台下的第三方平台历来没有好的结局
+由此突然</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>钛媒体</h2>
+            <p class="description">来自 钛媒体 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8177985.html" target="_blank" rel="noopener">县城中产打“减肥针”，很快不用排队了</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">“减肥药王”窗口期的关键一战。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8177924.html" target="_blank" rel="noopener">扫地机集体下滑，张峻彬能带云鲸摆脱others吗？</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">扫地机扫不动了，云鲸不能再“偏科”。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8177860.html" target="_blank" rel="noopener">人形机器人租金暴跌，厂商为什么还在铺渠道？</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付一台机器人，不必再多配一名跟在旁边的工程师。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8178523.html" target="_blank" rel="noopener">小红书为何投不出下一个“完美日记”？</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">种草红利退潮，美妆投资回归产品、技术和耐心。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.tmtpost.com/8178463.html" target="_blank" rel="noopener">悄悄“清算”行政酒廊的万豪，又反悔了？</a></h3>
+                <p class="meta">
+                    <span>📰 钛媒体</span>
+                </p>
+                <p class="summary-text">开着亏钱，关了挨骂？</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>开源中国</h2>
+            <p class="description">来自 开源中国 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/503167" target="_blank" rel="noopener">MiniMax M3.1 Flash 正式开源</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">MiniMax 把 M3.1 Flash 的权重开源了，规格是 428B 总参数、23B 激活。上线 72 小时，真实用户处理了超过 100 万亿 Token。 M3.1 Flash 能力相比上一代 M3 全面提升，但这次开源公告的重心明显在推理效率上，三组优化值得分别看： 全模型稀疏注意力——前三个全注意力层替换为稀疏注意力，降低长上下文的计算负担。QAT（...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/503166" target="_blank" rel="noopener">Linus 使用 Claude 辅助对内核进行迟到已久的历史清理</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">Linus Torvalds 对 Linux Kernel 进行了一个「迟到已久的清理」：把 __get_user() 和 __put_user() 这两个历史悠久的函数从内核里删掉了。他在 commit message 里写得很直白——「这早就该做了：__get_user() 和 __put_user() 完全是历史遗留，永远不是正确选择，而且还被误用」。 __get_user() 和 __put_user() 是内核里...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/503165" target="_blank" rel="noopener">DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。 
+┌──...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/503164" target="_blank" rel="noopener">novel-plus v6.0.0 发布：全新 UI + 后台重构 + AI 长篇小说创作工作流</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">novel-plus v6.0.0 发布了，主要改变如下： 移动端 UI 全面重设计：采用更加简洁、现代的界面风格，优化整体视觉体验与交互。 完善核心功能模块：进一步完善小说筛选、小说书单、小说书评、段落评论、消息系统等功能。 重构管理后台：全面重构 novel-admin 模块，精简后台功能结构，统一技术栈与 UI 风格。 新增 AI 长篇...</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.oschina.net/news/503163/open-source-windows-reactos-finally-gets-ntfs-support" target="_blank" rel="noopener">“开源 Windows” ReactOS 迎来重大进展：NTFS 驱动近十年终于可用、系统向 NT6 迁移</a></h3>
+                <p class="meta">
+                    <span>📰 开源中国</span>
+                </p>
+                <p class="summary-text">ReactOS 官方向社区宣布了两个重大进展：NTFS 驱动终于可用了，系统正在向 NT6 架构迁移。对等了近十年的开源 Windows 项目来说，这两件事合在一起，意味着它真的在接近「能用」了。 先说 NTFS。ReactOS 官方用「BREAKING NEWS: NTFS moment!」来宣布——经过近十年的努力，NTFS 驱动终于大幅改进，可以真正用 NTFS 安装...</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>雷峰网</h2>
+            <p class="description">来自 雷峰网 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/zaobao/3jq4Bj4E3zJhjVBp.html" target="_blank" rel="noopener">72岁董明珠：被学生喊奶奶很不开心，人的价值不用年龄来衡量；雷军：汽车产业没有安全，其他都是零；iPhone Duo全球限购，每人限购2台</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">要闻提示
+
+
+
+
+
+
+
+
+
+1.iPhone Duo开启全球限购，每位顾客仅可购买2台
+2.72岁董明珠：被学生喊奶奶很不开心，人的价值不用年龄来衡量
+3.雷军：汽车产业没有安全，其他都是零
+4.星巴克回应消费入座争议：10月22日起全国施行并摆放提示牌
+5.宇树发新人形机器人！能徒手抬汽车，还会勇斗歹徒
+6.离职Kimi后，17岁天才少年陈广宇被曝加入美国AI初创公司
+7.高通拟11月启动全球裁员！
+8.马斯克证实：SpaceX、特斯拉将合并
+今日头条
+
+
+
+
+
+
+iPhone Duo开启全球限购，每位顾客仅可购买2台
+
+
+
+
+10月21日消息，随着苹果首款折叠手机iPhone Duo预订需</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/transportation/tlrld8EmPpRuUKDa.html" target="_blank" rel="noopener">当车企抢着自研电池，智己为什么反着来？</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">围绕电池展开的产品定义权正在成为行业中的焦点话题。
+小米、理想最近发布了自研电池品牌，与欣旺达、中创新航等电池厂商联手，宣告了车企要深入电池研发、制造环节的决心。李想说，“世界既需要最懂智能电动车的电池企业，也需要最懂电池的智能电动车企业。”
+而宁德时代首席制造官倪军直言，"还是要专业的人做专业的事"。
+有人转身自研，也有车企坚持全系搭载宁德时代。智己即将发布的新车，智己LS8NEO纯电版中，从电芯到电池包，均采用了宁德时代电池。
+
+他们相信，将电池交给顶级供应商，是把整车最难、也最不能出错的一环，交给确定性。
+最近，雷峰网实地探访了宁德时代工厂，在宁德时代工厂中，我们也看到，一颗好的电芯是如</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/industrynews/vv6pTluWIUjUHMbi.html" target="_blank" rel="noopener">百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">企业AI转型正在走向深水区，从单点工具和业务场景提效，向系统性的组织重构延伸。麦肯锡曾在《组织状态报告2026》中指出，尽管AI被视为新一轮生产力革命的重要驱动力，但真正将其转化为经营业绩的企业仍是少数，背后的关键在于，不少企业仍将AI转型停留在“工具升级”层面，却忽视了更本质的“组织重构”。如何将AI能力融入组织，转化为持续的生产力，将成为影响企业未来竞争力的关键。11月12日，百度将在百度世界2026大会上聚焦“智能组织”议题，或将提出AI时代的组织进化范式。
+ 
+10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。本届大会设置10+场分论坛，围绕“AI驱动组织跃迁</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/yanxishe/tvPJIsotGRQWkdwV.html" target="_blank" rel="noopener">深度解读全球 72 小时安全风暴：PHP 事件只是第一枪</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">如果你昨天刚好踩中了所有这些坑，那你大概是 2026 年最惨的安全工程师。
+想象一下，你的网站跑在 Linux 服务器上，前端用 Nginx 做反向代理，后端 Go、PHP、Node.js 混着用，代码存在自己搭的 GitLab 里，靠自动发布流水线更新，HTTPS 证书还选了 eMudhra 签发的证书链。
+恭喜你，喜提安全漏洞全家桶。
+10 月 21 日，PHP 官方爆出两个严重程度 9.2 分（满分 10 分）的远程代码执行漏洞（代号 PHP2Shell）。攻击者无需账号密码，发送一个 HTTP 请求就能直接接管你的服务器。
+同一天，全球最大的私有化代码仓库平台 GitLab 也炸了，爆</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.leiphone.com/category/chips/ZciUaXjdyyGRgNRl.html" target="_blank" rel="noopener">超智深融 算力圳浓——第二十二届CCF全国高性能计算学术大会在深圳成功举办</a></h3>
+                <p class="meta">
+                    <span>📰 雷峰网</span>
+                </p>
+                <p class="summary-text">鹏城向海潮起处，算力奔腾启新程。10月17-20日，第二十二届CCF全国高性能计算学术大会（CCF HPC2026）于深圳国际会展中心正式拉开帷幕。本次大会与2026世界算力博览会（WEC2026）同期同馆举办，让滨海都市的开放蓬勃与超级算力的澎湃革新、前沿学术的深耕探索与产业生态的落地赋能在此碰撞交融，以“学术顶会+产业博览”双轮驱动的全新模式，书写了算力产业数实融合、科创赋能、共生共荣的崭新篇章。
+本届大会立足全国算力产业发展前沿，聚焦国产算力自主创新、超智深度融合、算力互联互通、绿色算力体系建设等核心热点，延续并升级“学术引领、产业融合、生态共建”的特色优势。大会广聚海内外顶尖力量，云集</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>少数派</h2>
+            <p class="description">来自 少数派 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/117104" target="_blank" rel="noopener">派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115437" target="_blank" rel="noopener">把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/116923" target="_blank" rel="noopener">前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/115090" target="_blank" rel="noopener">终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">药物不能解决所有问题，这是是我学到的重要一课。查看全文</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://sspai.com/post/116953" target="_blank" rel="noopener">派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等</a></h3>
+                <p class="meta">
+                    <span>📰 少数派</span>
+                </p>
+                <p class="summary-text">OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>爱范儿</h2>
+            <p class="description">来自 爱范儿 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">· 奥迪中国换帅，前奇瑞高管张俊将接任总裁
+· 特斯拉三季度净利降 43%，管理层仍强调 FSD 技术领先
+· 王兴兴：物理 AI 已有突破苗头，难点在模型与机器人对齐
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1685507?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">OpenAI 发现 PHP「世纪漏洞」，全球 70% 网站都危险了</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">大的还在后面
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1685489?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">劳斯莱斯同款对开门！仰望旗舰轿车即将发布，还会有固态电池？</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">仰望正在打造属于自己的「古斯特」。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1685446?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">PHP爆雷引发全球紧急「拔网线」，别指望 AI 拯救互联网</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">网站被攻破后，数据、密码和令牌都可能受到影响
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.ifanr.com/1685251?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener">首发｜我们用了一周的 iPhone Duo，这里有你关心的一切</a></h3>
+                <p class="meta">
+                    <span>📰 爱范儿</span>
+                </p>
+                <p class="summary-text">在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+            </article>
+            
+        </section>
+        
+        <section class="category">
+            <h2>量子位</h2>
+            <p class="description">来自 量子位 的最新资讯</p>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/504841.html" target="_blank" rel="noopener">特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">FSD一年增长70万付费用户</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/504832.html" target="_blank" rel="noopener">既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/504800.html" target="_blank" rel="noopener">谁在给OpenAI供应具身数据？</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">挤进全球Physical AI核心供应链</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/504734.html" target="_blank" rel="noopener">多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">医疗AI质变时刻</p>
+            </article>
+            
+            <article class="article">
+                <h3><a href="https://www.qbitai.com/2026/10/504730.html" target="_blank" rel="noopener">生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月</a></h3>
+                <p class="meta">
+                    <span>📰 量子位</span>
+                </p>
+                <p class="summary-text">10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播</p>
+            </article>
+            
+        </section>
+        
+
+        <!-- 工具推荐 -->
+        
+
+        <!-- 结束语 -->
+        
+        <section class="closing">
+            <p>以上是今日资讯汇总，更多详情请点击链接查看。</p>
+        </section>
+        
+
+        <!-- 历史日报 -->
+        <section class="history">
+            <h2>📚 历史日报</h2>
+            <ul>
+                
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>🤖 由 <a href="https://github.com" target="_blank">ADailyReport</a> 自动生成</p>
+        <p>© 2026 ADailyReport - 每日AI资讯</p>
+    </footer>
+</body>
+</html>
