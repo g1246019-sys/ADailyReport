@@ -23,7 +23,7 @@ ADailyReport 是一个自动化生成每日资讯简报的 Node.js 项目。每�
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/ADailyReport.git
+git clone https://github.com/g1246019-sys/ADailyReport.git
 cd ADailyReport
 ```
 
@@ -80,7 +80,7 @@ npm start
 ```bash
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/yourusername/ADailyReport.git
+git remote add origin https://github.com/g1246019-sys/ADailyReport.git
 git push -u origin main
 ```
 
