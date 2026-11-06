@@ -2,8 +2,8 @@
 
 自动化每日AI资讯日报生成与发布系统
 
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/ADailyReport)
-![GitHub License](https://img.shields.io/github/license/yourusername/ADailyReport)
+![GitHub Stars](https://img.shields.io/github/stars/g1246019-sys/ADailyReport)
+![GitHub License](https://img.shields.io/github/license/g1246019-sys/ADailyReport)
 ![Node.js](https://img.shields.io/node/v/a-daily-report)
 
 ## 📖 项目介绍
