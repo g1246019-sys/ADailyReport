@@ -1,0 +1,267 @@
+{
+  "title": "2026年11月07日 每日资讯汇总",
+  "summary": "今日共收集 35 条资讯，涵盖 7 个来源。",
+  "hotTopics": [],
+  "categories": [
+    {
+      "name": "V2EX",
+      "description": "来自 V2EX 的最新资讯",
+      "items": [
+        {
+          "title": "[OpenAI] ChatGpt 大面积封号？",
+          "summary": "三个菲区 Pro20 全部中招，不同服务器固定 IP 出口，用了小半年一直很稳定。有其他中招的朋友吗?",
+          "url": "https://www.v2ex.com/t/1255172#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[iPhone] 说一个 iPhone Duo 的冷知识：内外屏的旋转锁定是分开设置的",
+          "summary": "我也是今天才发现，内外屏的旋转锁定可以分开设置",
+          "url": "https://www.v2ex.com/t/1255171#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[问与答] 有点纠结选西屋的 K16 还是格米莱 G3006J 的咖啡机",
+          "summary": "小白一枚，目前预算 2600 左右，想入手一个意式咖啡机，看网上别人萃取的样子很馋。就想自己搞个玩玩。也想自己 DIY 咖啡饮料，不是属于每天必须一杯要续命的，就是喜欢这个风味。\n目前手里有一个 CLITON 的手摇磨豆机 6 精钢芯的。\n主要的纠结点是要不要上 K16 带自动磨豆功能或者是更自由的 3006J/H。\n或者有更好的选择大佬们也可以推荐一波，顶天 3000 内预算",
+          "url": "https://www.v2ex.com/t/1255169#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[云计算] PowerShell 与 Linux 命令串联符号为什么不一样",
+          "summary": "老版 PowerShell 5.1 根本没有 && 这个运算符，粘过去直接报 ParserError 。拿不准版本时一律用分号：\nhttps://zhetengbiji.blogspot.com/2026/10/powershell-linux.html",
+          "url": "https://www.v2ex.com/t/1255166#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[OpenAI] plus 用户，现在 5 小时额度耐用了。但是周额度蹭蹭往下掉。",
+          "summary": "靠，这额度全是黑箱操作。",
+          "url": "https://www.v2ex.com/t/1255165#reply0",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "name": "钛媒体",
+      "description": "来自 钛媒体 的最新资讯",
+      "items": [
+        {
+          "title": "家电行业，集体过冬",
+          "summary": "冬天来了，春天还会远吗",
+          "url": "https://www.tmtpost.com/8196670.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "港股上市公司杀入币圈，高调囤币4000枚，套现1377万美元",
+          "summary": "港股唯一上市家办，“清仓甩卖”比特币。  11月4日，港股上市家办公司“德林控股”公告称，公司在9—11月两个月内卖出172枚比特币，套现约1377万美元。",
+          "url": "https://www.tmtpost.com/8196556.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "50系突然疯涨，买不起显卡，年轻人又挤进网吧包夜了",
+          "summary": "非理性暴涨成为新常态。",
+          "url": "https://www.tmtpost.com/8196665.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "深度聊聊“字节时间”",
+          "summary": "“字节时间”这个词，最近搅动了整个互联网圈。  导火索是秦朔写的一篇文章，引用野村报告转述的 QuestMobile 数据：在中国移动互联网月度使用时长排名前 50 的 App 里，整个字节系的时长份额达40.9%，腾讯系回落到29.1%。",
+          "url": "https://www.tmtpost.com/8196953.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "AI基建预期生变，万盛股份2.85亿溢价并购遭上交所三问",
+          "summary": "溢价并购遭监管追问。",
+          "url": "https://www.tmtpost.com/8196758.html",
+          "source": "钛媒体"
+        }
+      ]
+    },
+    {
+      "name": "雷峰网",
+      "description": "来自 雷峰网 的最新资讯",
+      "items": [
+        {
+          "title": "百图生科与11家伙伴战略合作，AI生物计算覆盖医药研发及农业育种",
+          "summary": "活动焦点：\n· 百图生科主办、港投公司支持的第三届峰会2026年11月6日开幕，汇聚约300名科研、产业及投资界代表，探讨人工智能与生命科学的融合发展\n· 百图生科InnoHub分别与大学、科企及投资机构合作，以AI生物计算聚焦乳癌及中医药研究、农业育种、研发与产业配套，包括与香港大学推进「乳腺癌虚拟细胞大模型」项目，以及与香港浸会大学筹建「AI中医药联合实验室」；合作网络延伸至日本、新加坡及「一带一路」沿线市场\n· 全日设多场院士演讲及圆桌论坛，涵盖世界模型、可穿戴生物传感与具身智能，以及香港生物计算发展、生物医药AI研发、投资及企业拓展国际市场等议题\n2026年11月6日，生命科学基础大模",
+          "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "创始人操纵股价罚没4047万，倍轻松再难「轻松」",
+          "summary": "常坐飞机的人，多半在机场见过一家叫“倍轻松”的店，它2021年上市，号称“健康智能硬件第一股”。\n11月4日晚，这家公司的创始人马学军，等到了证监会那张悬了一年多的罚单：因联合6名当事人操纵自家股票，罚没合计4047.31万元，证券市场禁入5年，禁止交易5年。同日，他辞去董事、董事长、总经理等全部职务，彻底退出公司管理层，董事刘志华代行董事长、总经理职责。\n罚单落地，意味着监管程序告一段落，也把倍轻松真正的难题推到台前：创始人退出经营层后，公司如何重新跑通治理、现金流和主业模型。\n\n\n\n\n\n\n01\n\n\n两张罚单，同一条过长的权力半径\n\n\n\n\n这张4047万的罚单，不是马学军第一次被监管找上门。",
+          "url": "https://www.leiphone.com/category/weiwu/dpUYWHZif8UtQpLA.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
+          "summary": "Tibo 不发糖了？因为Open AI 的内部安全烂透了\n\n\n\n\n\n    作者丨高允毅\n\n    编辑丨岑   峰\n                                                                                                       \n\n\n\nOpenAI 的“赛博义父”好像换人了？最先发现不对劲的是敏锐的网友。\n\n11 月 4 日，Codex 团队的产品负责人 Andrew Ambrosino 发帖称，关于 OpenAI 产品的任何意见都可以反馈给他。\n\nTibo 在下面跟了一句：“快点改进模型”，And",
+          "url": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "豆包工作个人版取消5小时额度限制",
+          "summary": "11月6日起，豆包工作个人版取消5小时额度限制。调整后，个人用户不再受到5小时短周期额度限制，可以在周额度范围内，根据实际工作节奏灵活安排使用时间。周额度及其他使用规则仍以对应套餐为准。\n\n据了解，此前豆包工作个人版与市面上主流大模型类似，采用5小时、7天双周期额度管理。即使周额度仍有剩余，用户在达到5小时额度上限后，也需等待短周期额度重置才能继续使用。\n此次豆包工作取消5小时额度限制后，个人用户可以更自由地分配一周内的使用额度。比如，在项目汇报前集中梳理资料、准备方案和修改演示文稿；在求职或述职阶段连续完成信息整理、内容撰写和多轮调整；也可以一次性处理较长的研究、分析与创作任务，不必因为达到",
+          "url": "https://www.leiphone.com/category/industrynews/Ii6W43GghzJA7V1u.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "李佳琦卖出万份Token，天猫的AI生意才刚开场",
+          "summary": "Token正在成为AI时代的“流量包”。（雷峰网雷峰网雷峰网）\n11月2日晚，李佳琦直播间上架AI千问办公的Token算力，开播半小时，售出10万份千问办公个人会员月卡，累计约2万亿Token。\n这次千问办公CEO陈宇森也来到直播间现场，雷峰网此前了解到，这位阿里最年轻的事业部CEO，业内普遍评价他能力很强，具备出色的产品sense、表达能力和商业认知都超出大部分阿里的资深老员工，“登味”极少。\n说起来，阿里在就9月份就已有动作，同期天猫设立“AI空间站”，就有三家厂商入驻：千问、智谱、Minimax，充值规格分为月卡、季卡和年卡三档；阿里旗下的三档AI应用分别也给出了20%—40%的优惠；更",
+          "url": "https://www.leiphone.com/category/industrynews/h454rlPtg41JIuFd.html",
+          "source": "雷峰网"
+        }
+      ]
+    },
+    {
+      "name": "爱范儿",
+      "description": "来自 爱范儿 的最新资讯",
+      "items": [
+        {
+          "title": "早报｜触屏MacBook Pro开卖即缺货/仰望U9 Xtreme突破503kph/博世吴永桥：汽车不该拿来订咖啡机票",
+          "summary": "· 苹果向部分 iPhone Duo 买家发问卷，询问折痕和屏下相机体验\r\n· 张雪：将参加 36 名重庆大学学生的校招二面\r\n· 马斯克称特斯拉得州工厂将缩减 Cybertruck 生产，为 Cybercab 腾出产能\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1688251?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "503.17km/h！比亚迪仰望 U9X 再次刷新全球最速，量产车首次突破 5 字头",
+          "summary": "站在世界之巅。\r\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1688195?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "10 月最值得关注的 17 个产品｜明日产品 WATCHLIST",
+          "summary": "真正重要的产品，往往以充满争议的姿态出现。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1688060?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+          "summary": "· 丰田将设立直属机器人部门，由首席生产官兼任负责人\r\n· 三季度全球 DRAM 营收逼近 2000 亿美元，价格上涨是主因\r\n· 鸿蒙电脑累计发货破百万，华为带来政企台式机与企业版\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        },
+        {
+          "title": "MacBook Pro 能触屏了，但这只是它最小的升级｜附选购指南",
+          "summary": "触控向左，算力向右\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1687989?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "source": "爱范儿"
+        }
+      ]
+    },
+    {
+      "name": "开源中国",
+      "description": "来自 开源中国 的最新资讯",
+      "items": [
+        {
+          "title": "2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛名单公布",
+          "summary": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 负责人 仓库链接 实时交互数字人引擎 李恒中 https://github.com/lipku/LiveT...",
+          "url": "https://www.oschina.net/news/503457",
+          "source": "开源中国"
+        },
+        {
+          "title": "2026 开源行业解决方案创新赛「开源智能硬件解决方案赛道」决赛名单公布",
+          "summary": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「开源智能硬件解决方案赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 负责人 代码仓库链接 Blockless 科创教育 AI 嵌入式软件开发平台 辛瑞莉 https:...",
+          "url": "https://www.oschina.net/news/503456",
+          "source": "开源中国"
+        },
+        {
+          "title": "2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛名单公布",
+          "summary": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 负责人 视频链接 地心脉动 王剑歌 https://www.bilibili.com/video/BV1qz4i6iEv...",
+          "url": "https://www.oschina.net/news/503451",
+          "source": "开源中国"
+        },
+        {
+          "title": "qData 数据中台开源版 v1.6.6 发布：ETL 模块轻量化升级，优化定时任务磁盘占用问题",
+          "summary": "qData 数据中台开源版 v1.6.6 发布，本次更新主要涉及 ETL 执行模块拆分，以及定时任务运行中的 JAR 包累积问题修复。 在社区使用反馈中，有开发者发现，数据集成定时任务持续运行后，服务器上的 ETL JAR 包不断累积，占用了较多磁盘空间。对于高频、长期运行的同步任务，这类问题需要持续关注。 围绕执行包体积和运行文...",
+          "url": "https://www.oschina.net/news/503440",
+          "source": "开源中国"
+        },
+        {
+          "title": "OpenSSH 严重绕过漏洞“sshole”让任意超长密码都能登录 root",
+          "summary": "一个本该永远无法登录的账号，只要输入超过 256 个字符的任意密码，就能进去。这个漏洞在 musl libc 里躺了十四年——从 2012 年埋下，到 2026 年才被发现。 发现者 Özgün Kültekin 给它起了个名字：*sshole。他还做了个网站 sshhole.com，把这个 bug 的来龙去脉从 1980 年一路讲到今天。 先看这个漏洞怎么形成的 19...",
+          "url": "https://www.oschina.net/news/503439/openssh-sshhole",
+          "source": "开源中国"
+        }
+      ]
+    },
+    {
+      "name": "少数派",
+      "description": "来自 少数派 的最新资讯",
+      "items": [
+        {
+          "title": "本周看什么 | 最近值得一看的 9 部作品",
+          "summary": "📅本周新预告《戴高乐之战》确认引进11月2日，电影《戴高乐之战》确认引进。该系列分为《戴高乐之战：淬炼时代》《戴高乐之战：我写下你的名字》上下两部曲。由法国百代公司出品，制作成本高达7520万欧元。作 ...查看全文",
+          "url": "https://sspai.com/post/118623",
+          "source": "少数派"
+        },
+        {
+          "title": "iPhone 变强了，但我没有",
+          "summary": "我们把 iPhone 18 Pro Max 带到了深圳、香港和吉隆坡，带入了形形色色的街头。在这个过程里，我们记录了使用 iPhone 拍到的美好画面，也借此描绘了自己的心情变化和生活感悟。查看全文",
+          "url": "https://sspai.com/post/118250",
+          "source": "少数派"
+        },
+        {
+          "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
+          "summary": "M6 芯片提供了足够的性能保障，无论修图、视频剪辑还是运行入门级的 AI 大模型，它都能应对。在此基础上，你原本可能需要加在 Pro 级 SoC 上的预算就能省下来，花给内存或者硬盘。查看全文",
+          "url": "https://sspai.com/post/118570",
+          "source": "少数派"
+        },
+        {
+          "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+          "summary": "OpenAI 推出 Images 2.6 模型，Nothing CMF Speaker S/M 音箱国行上市等。查看全文",
+          "url": "https://sspai.com/post/118587",
+          "source": "少数派"
+        },
+        {
+          "title": "开启 Mac 的下一世代：MacBook Pro (PROLED XDR) 首发体验",
+          "summary": "全新 MacBook Pro，开启 Mac 的下一个世代。查看全文",
+          "url": "https://sspai.com/post/118546",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "name": "量子位",
+      "description": "来自 量子位 的最新资讯",
+      "items": [
+        {
+          "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+          "summary": "Q3营收实现数倍增长",
+          "url": "https://www.qbitai.com/2026/11/508155.html",
+          "source": "量子位"
+        },
+        {
+          "title": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
+          "summary": "挑战商业视频的高难度场景",
+          "url": "https://www.qbitai.com/2026/11/508118.html",
+          "source": "量子位"
+        },
+        {
+          "title": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
+          "summary": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+          "url": "https://www.qbitai.com/2026/11/508143.html",
+          "source": "量子位"
+        },
+        {
+          "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+          "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+          "url": "https://www.qbitai.com/2026/11/508107.html",
+          "source": "量子位"
+        },
+        {
+          "title": "香港金融科技周 x StartmeupHK 2026主论坛：以「金融+」、「AI+」及全球拓展开拓新机遇",
+          "summary": "香港金融科技周 x StartmeupHK 2026踏入第11届",
+          "url": "https://www.qbitai.com/2026/11/507988.html",
+          "source": "量子位"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "closing": "以上是今日资讯汇总，更多详情请点击链接查看。",
+  "meta": {
+    "generatedAt": "2026-11-07T04:48:17.346Z",
+    "sourceCount": 35,
+    "date": "2026年11月07日",
+    "fallback": true
+  }
+}
