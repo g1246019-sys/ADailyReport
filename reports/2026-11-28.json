@@ -1,0 +1,267 @@
+{
+  "title": "2026年11月28日 每日资讯汇总",
+  "summary": "今日共收集 35 条资讯，涵盖 7 个来源。",
+  "hotTopics": [],
+  "categories": [
+    {
+      "name": "V2EX",
+      "description": "来自 V2EX 的最新资讯",
+      "items": [
+        {
+          "title": "[问与答] 办公室头顶装摄像头怎么摸鱼",
+          "summary": "收入还不错，工作也很轻松，为这个事情跑路或者跟公司闹僵肯定不值得，但是谁能一天 8 小时都在工作啊，总有摸鱼的需求吧。\n搞个伪装成页面广告的网页播放器？\n我感觉智能眼镜最不容易被识别",
+          "url": "https://www.v2ex.com/t/1260560#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[Claude] Claude 被怀疑故意破坏用户的代码库",
+          "summary": "X 的 TL 上全是类似的用户分享。\nClaude 涉嫌故意破坏用户的代码库，导致性能下降和偏离预期。\n2 个角度来看。\n如果是假的，那马圣的 X 真的是世上最顶级的舆论风暴引爆器。\nhttps://x.com/RealAstropulse/status/2126357406145794530\nhttps://x.com/drewproudx/status/2126387430916059609\nhttps://x.com/alexinexxx/status/2126489715591307772\nhttps://x.com/RealAstropulse/status/212611941247",
+          "url": "https://www.v2ex.com/t/1260559#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[分享创造] 做了一个 100% 本地的 Chrome 浏览记忆插件：关掉未读标签不怕忘，支持按正文关键词找回（无需账号）",
+          "summary": "平时写代码、看文档、刷技术文章，Chrome 经常一开就是四五十个标签页。\n试过 OneTab、Session Buddy 和各种稍后阅读，一直有两个卡点没解决：\n浏览器自带历史记录只能搜标题和 URL，搜不到正文。经常记得上周看过一段关于某个报错或设计思路的话，但死活想不起标题和网站。\n不想为了记几个网页注册云端账号、把浏览记录上传到别人服务器，也不喜欢点一下就把所有打开的标签全收成一团列表。\n于是自己用原生 ES Modules + IndexedDB + Mozilla Readability 写了这个小插件 「拾页（Shiye）」，目前已上架 Chrome Web Store：\n官网与",
+          "url": "https://www.v2ex.com/t/1260557#reply0",
+          "source": "V2EX"
+        },
+        {
+          "title": "[程序员] DSH 居然目前还不支持本地的中文会话索引和分词搜索！",
+          "summary": "刚才和 DSH 讨论接手原来在 ChatGPT 中的工作时，他告知我的。目前 DSH 的会话全文索引用的是 SQLite FTS5 的 unicode61 tokenizer。而且默认会话索引也未启用。大为震惊！这还咋用？我之前已经习惯了在 ChatGPT 中同一个 project 中的会话是共享记忆的，可以跨会话召回的。在 DSH 的一个会话用到死？",
+          "url": "https://www.v2ex.com/t/1260556#reply1",
+          "source": "V2EX"
+        },
+        {
+          "title": "[推广] 黑五福利｜注册送 500M 动态流量，另放 4 个 1G CDK，先到先得",
+          "summary": "各位 V 友，黑五期间我们 Proxy001 这边上了一波活动。做数据采集、跨境电商、SEO 监控、广告验证或者社媒矩阵的朋友，可以先白嫖测试，跑通自己的业务再考虑付费。\n先说福利，一共两件事\n1. 注册即送 500M 动态流量\n2. 额外放出 4 个 1G 流量 CDK 兑换码，先到先得，兑完即止：\nCDK 1：[TLI0OUHH28OL4GYLGUDDI1KHV7EDGFDX]\nCDK 2：[2VWCRJOIVW14W0UIPPN48M535IUJ53KA]\nCDK 3：[EJ2C4VPMA6PL80JPGW231YBA8TF67OAR]\nCDK 4：[ZISCUN0A40Z2I6S91M",
+          "url": "https://www.v2ex.com/t/1260555#reply0",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "name": "钛媒体",
+      "description": "来自 钛媒体 的最新资讯",
+      "items": [
+        {
+          "title": "蔚来开始用AI改造自己，这笔经济账怎么算？",
+          "summary": "建成AI Native原生组织，将是下一阶段行业竞争、产业变革的核心关键。",
+          "url": "https://www.tmtpost.com/8221323.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
+          "summary": "一场还没有完全出现在报表里的利润挤压。",
+          "url": "https://www.tmtpost.com/8221273.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "《复联5》要来救市了",
+          "summary": "《复仇者联盟》依然是最强IP。",
+          "url": "https://www.tmtpost.com/8221005.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "“争议”总经理上任176天“闪辞”，水井坊6年已换8帅",
+          "summary": "“川酒六朵金花”之一的水井坊，总经理又双叒叕换了。",
+          "url": "https://www.tmtpost.com/8221007.html",
+          "source": "钛媒体"
+        },
+        {
+          "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+          "summary": "三家公司招聘要求背后，有五种共同能力。",
+          "url": "https://www.tmtpost.com/8221003.html",
+          "source": "钛媒体"
+        }
+      ]
+    },
+    {
+      "name": "爱范儿",
+      "description": "来自 爱范儿 的最新资讯",
+      "items": [
+        {
+          "title": "德系最大 SUV 来了！奥迪 Q9 国内首秀，车长超 5 米 3，还有一台大 V6丨广州车展",
+          "summary": "奥迪也拥有了他们的「大 9 系」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1696001?utm_source=rss&utm_medium=rss&utm_campaign",
+          "source": "爱范儿"
+        },
+        {
+          "title": "24.99 万元起！宝马新世代 i3 正式上市，纯电续航高达 1028km丨广州车展",
+          "summary": "新世代的宝马，依旧是「驾驶者之车」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1695987?utm_source=rss&utm_medium=rss&utm_campaign",
+          "source": "爱范儿"
+        },
+        {
+          "title": "9.69 万元，奇瑞 QQ3 变身一辆可以开咖啡馆的「QQ 啡车」丨广州车展",
+          "summary": "生活方式，可大可小。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1695964?utm_source=rss&utm_medium=rss&utm_campaign",
+          "source": "爱范儿"
+        },
+        {
+          "title": "从「中国特供」变全球旗舰，搭载 Momenta 智驾的本田冠道来了｜广州车展",
+          "summary": "十年前为中国造大空间，十年后用中国场景定义全球车。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1695948?utm_source=rss&utm_medium=rss&utm_campaign",
+          "source": "爱范儿"
+        },
+        {
+          "title": "启源 Q06 迎来大升级！长安发布天枢领航 Ultra 2.0，明年 1 月推车位到车位｜广州车展",
+          "summary": "15 万级家用车车主，也在认真用高阶智驾了。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "url": "https://www.ifanr.com/1695936?utm_source=rss&utm_medium=rss&utm_campaign",
+          "source": "爱范儿"
+        }
+      ]
+    },
+    {
+      "name": "少数派",
+      "description": "来自 少数派 的最新资讯",
+      "items": [
+        {
+          "title": "「黑五」值得买：不容错过的数码硬件优惠",
+          "summary": "除了软件服务，这个黑五还有这些硬件值得一看。查看全文",
+          "url": "https://sspai.com/post/119651",
+          "source": "少数派"
+        },
+        {
+          "title": "本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限",
+          "summary": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本期不设特定有奖互动话题，欢迎你在评论区分享11月新作游玩体验，可以是本文出现的，也可以是本文未提及、但你特别想推荐给派友的。我们下期再见！> ...查看全文",
+          "url": "https://sspai.com/post/119686",
+          "source": "少数派"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 8 部作品",
+          "summary": "☕️TL;DR近期佳作推荐：[电影]泥面人、[电影]峡湾、[电影]童话继姊妹、[英剧]警之光第四季、[加拿大]槲寄生谋杀案第三季、[国产]今天是太阳雨、[纪录片]一切如你所见、[真人秀]魔鬼的计谋：死 ...查看全文",
+          "url": "https://sspai.com/post/119658",
+          "source": "少数派"
+        },
+        {
+          "title": "「黑五」值得买：不容错过的 App 和服务优惠",
+          "summary": "先预祝大家买得愉快、用得舒心。查看全文",
+          "url": "https://sspai.com/post/119601",
+          "source": "少数派"
+        },
+        {
+          "title": "派早报：1Password 确认内部系统遭入侵等",
+          "summary": "索尼 WH-1000XM4C 无线降噪耳机国行正式发售，微软公布 Windows Server 2028 功能清理计划等。查看全文",
+          "url": "https://sspai.com/post/119632",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "name": "雷峰网",
+      "description": "来自 雷峰网 的最新资讯",
+      "items": [
+        {
+          "title": "双城联动首发｜共绩算力云平台，一站式跑通 AI 训推全流程",
+          "summary": "一个AI应用从想法到落地，往往要跨过不少门槛：从开发环境搭建、数据预处理，到模型训练微调、推理部署上线，每一步都离不开算力的支撑，也需要计算资源、运行环境、数据存储和任务调度的协同配合。\n\n\n但对很多企业和开发者来说，这些环节往往分散在不同的平台和系统中：开发环境需要反复配置，数据需要在集群之间迁移，训练任务需要协调资源，模型上线后还要重新部署和管理。研发与运维的时间，常常消耗在环境对齐、资源协调和系统切换上。\n\n\n能不能让AI开发的每一步，都在同一个平台完成？\n\n\n能！共绩科技持续升级平台产品能力，将底层算力调度与上层 AI 训推服务深度结合。11月27日，在深圳第28届中国国际高新技术成果",
+          "url": "https://www.leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资",
+          "summary": "“AI算力的成本中心正在从‘计算’转向‘连接’。”\n雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「闪科光联」近日完成数千万元人民币天使轮融资。\n种子轮由励石创投独家投资，天使轮由商汤国香、长石资本、厚雪资本联合领投，险峰长青（K2）、磐霖资本、小苗朗程、柯熙创投等多家产业基金共同跟投。\n鲸犀进一步获悉，闪科光联成立于 2026 年 9 月，创始人周秋桂博士毕业于美国弗吉尼亚大学，师从“全球 APD 之父” Joe C. Campbell 院士，回国后任职于华工科技，并从零组建了硅光团队。\n此后，周秋桂共同参与创立了熹联光芯，主导光电融合这一新架构的落地与量产。从经历来看",
+          "url": "https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "独家丨自研微水洗澡机，「润泽智造」拿下数百万元天使轮融资",
+          "summary": "雷峰网·鲸犀独家报道，微水清洁技术研发商「润泽智造」近期完成数百万元人民币天使轮融资，由一家市场化投资机构领投，金隼投资担任独家财务顾问。\n润泽智造成立于 2025 年，旗下品牌“羽鸣 eoomii”主打的产品是一款便携式微水洗澡机。\n据鲸犀了解，这款产品仅重约 4.9 千克，将清洗与烘干整合为一套“微水洗干一体”的自动化流程，聚焦于缺水环境下的个人清洁日用场景。\n也就是说，洗澡过程中的清洁、污水回收、晾干等步骤都可以用一台机器完成，取代了传统的固定浴室和大量水流冲洗。\n在团队上，创始人常若飞是一位连续创业者，有 15 年连续创业经验与 3 次成功创业经历，曾任深圳华科精密仪器研发负责人，首个",
+          "url": "https://www.leiphone.com/category/weiwu/TThdKrM8psZJIudr.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": "美团财报电话会：Keeta沙特实现全季度盈利",
+          "summary": "“Keeta延续了强劲的增长势头，且效率持续提升。”11月27日晚，美团三季度财报电话会上，CFO陈少晖分享了美团国际化进展。“香港稳定盈利，中东效率继续改善，特别是沙特在Q3全季度已经盈利。”\n今年7月，Keeta在沙特市场首次实现单月盈利，用时22个月，比香港市场更快。“Keeta在香港、中东市场效率的快速改善，印证了我们运营路径的有效性。”陈少晖表示，“巴西是我们重视的市场，我们依旧看好其市场潜力。事实上，在过去几个季度，Keeta在巴西的效率持续提升，我们看到了更明确的UE改善路径。”\n陈少晖认为，即时零售出海对美团是一个重要的增长机会。\n“目前在全球很多地区，外卖仍然只是少数消费者寻",
+          "url": "https://www.leiphone.com/category/industrynews/bNneZTVQVkQBiKrH.html",
+          "source": "雷峰网"
+        },
+        {
+          "title": " 美团电话会：预期四季度餐饮外卖UE较二季度明显提升",
+          "summary": "11月27日，美团发布2026年第三季度业绩报告，实现收入1156亿元。随着外卖行业趋于理性，叠加三季度暑期旺季效应，美团各项业务保持稳健增长。\n在财报电话会上，美团管理层表示，三季度，美团继续强化在餐饮外卖订单量和GTV上的领先地位，增长质量显著提升。\n二季度气温适宜、配送成本平稳，通常是外卖UE最好的季度。而三季度包含暑期旺季，为保障订单高峰期及特殊天气条件下的稳定履约，三季度会投入更多骑手补贴，单均配送成本高于二季度。\n美团管理层披露，三季度餐饮外卖UE较二季度有所回落，但9月UE修复明显，优于二季度平均水平，而10月UE环比9月继续提升。展望四季度，尽管配送成本仍受寒冬和年底季节性因素",
+          "url": "https://www.leiphone.com/category/industrynews/vNOSrpDD4d2w5DYL.html",
+          "source": "雷峰网"
+        }
+      ]
+    },
+    {
+      "name": "量子位",
+      "description": "来自 量子位 的最新资讯",
+      "items": [
+        {
+          "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+          "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+          "url": "https://www.qbitai.com/2026/11/513352.html",
+          "source": "量子位"
+        },
+        {
+          "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
+          "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+          "url": "https://www.qbitai.com/2026/11/513346.html",
+          "source": "量子位"
+        },
+        {
+          "title": "韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名",
+          "summary": "淡泊名利，实至名归🎉",
+          "url": "https://www.qbitai.com/2026/11/513320.html",
+          "source": "量子位"
+        },
+        {
+          "title": "DeepSeek APP突然更新账单，网友：要收费了？",
+          "summary": "网页App双端亮出聊天账单",
+          "url": "https://www.qbitai.com/2026/11/513305.html",
+          "source": "量子位"
+        },
+        {
+          "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+          "summary": "地图能随时修，记忆能跨任务用",
+          "url": "https://www.qbitai.com/2026/11/513227.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "开源中国",
+      "description": "来自 开源中国 的最新资讯",
+      "items": [
+        {
+          "title": "AI 让“自托管”又变得好玩了",
+          "summary": "一个玩了十几年“自托管了”的极客，最近写了篇博客说，自己对这件事的热情又回来了。 jlelse 的说法是他从没真正停下来过，只是懒得折腾新东西了，能把已经在跑的服务维护住就够了。转折发生在最近几个月，而把他重新点燃的，是一个听上去有点讽刺的东西：AI。 作者能重新玩起来，靠的是一个很朴素的前提：他的基础设施...",
+          "url": "https://www.oschina.net/news/503872/ai-made-self-hosting-fun-again",
+          "source": "开源中国"
+        },
+        {
+          "title": "微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动",
+          "summary": "一袋 500g 装的咖啡豆，和两袋 250g 的组合装，外观相似、总重一样，但它们不是一个 SKU。这种差别，通用多模态模型基本看不出来。 这正是腾讯微信视觉团队做 WeMM-Ecom 的出发点。他们今天发布了开源公告，代码放在 GitHub 的 Tencent/WeMM-Ecom，权重同步上了 Hugging Face。公告里有句话说得很准：让通用大模型\"看商品...",
+          "url": "https://www.oschina.net/news/503871",
+          "source": "开源中国"
+        },
+        {
+          "title": "🔥🔥开源接口平台 v6.5.3 发布",
+          "summary": "ApiGo 是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。支持接入（mysql、oracle、达梦、TiDB、DolphinDB、Hive、DuckDB ）等 SQL 或 NoSQL 数据源，在线可视化编写 SQL 快速发布接口，支持接口上下线、接口管理、接口限流、权限...",
+          "url": "https://www.oschina.net/news/503870",
+          "source": "开源中国"
+        },
+        {
+          "title": "🔥 拾趣 Magpie v0.2.1 发布：多项功能细节优化",
+          "summary": "🔥 拾趣 Magpie v0.2.1 发布：多项功能细节优化 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词桌面工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、Anki 、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Rele...",
+          "url": "https://www.oschina.net/news/503869",
+          "source": "开源中国"
+        },
+        {
+          "title": "【AI 智能运维平台】本周更新：编排中心支持将智能体生成的文件发送IM群webhook",
+          "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 :hammer_and_wrench: 系统管理 • 新增腾讯云、阿里云短信和语音通知渠道，支持使用已审核的云厂商模板发送 • 新增模块管理员和模块审计员，可按应用授予管理或只读审计权...",
+          "url": "https://www.oschina.net/news/503868",
+          "source": "开源中国"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "closing": "以上是今日资讯汇总，更多详情请点击链接查看。",
+  "meta": {
+    "generatedAt": "2026-11-28T06:27:42.932Z",
+    "sourceCount": 35,
+    "date": "2026年11月28日",
+    "fallback": true
+  }
+}
